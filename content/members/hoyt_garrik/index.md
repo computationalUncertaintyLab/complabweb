@@ -1,7 +1,7 @@
 ---
 title: "Garrik Hoyt"
-date: 2024-05-15
-lastmod: 2024-05-15
+date: 2003-03-10
+lastmod: 2024-09-08
 tags: ["data science","catastrophe modeling", "uncertainty quantification", "machine learning", "infectious diseases"]
 author: "Garrik Hoyt"
 description: "Background on Garrik Hoyt" 
@@ -16,13 +16,14 @@ editPost:
 showToc: true
 disableAnchoredHeadings: false
 
+linkedin_url: "https://www.linkedin.com/in/garrikh/"
+github_url: "https://github.com/GarrikHoyt/garrikhoyt"
+email_address: "gah223@lehigh.edu"
+cv_url: "https://github.com/GarrikHoyt/cv/blob/main/Hoyt_CV.pdf"
+
 ---
 
 Garrik is a PhD student in the Department of Computer Science & Engineering at the P.C. Rossin College of Engineering & Applied Science at Lehigh University.
 Garrik's research focuses on Uncertainty Quantification, Catastrophe Modeling, Data Science & Machine Learning, and Infectious Disease Modeling.
 Garrik's long-term goal is to establish a career in academia.
-
-[LinkedIn](https://www.linkedin.com/in/garrikh/)
-
-[GitHub](https://github.com/GarrikHoyt)
 
