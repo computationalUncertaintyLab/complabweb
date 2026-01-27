@@ -34,7 +34,7 @@ Students should note that the "book" may be updated periodically throughout the 
 
 - **Instructor:** Tom McAndrew  
 - **Email:** [mcandrew@lehigh.edu](mailto:mcandrew@lehigh.edu)  
-- **Office coordinates:** HST 175  
+- **Office coordinates:** Whitaker 318A
 - **Office hours:** To be voted on by students | By appointment  
 
 ---
