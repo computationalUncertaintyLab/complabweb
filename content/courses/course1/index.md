@@ -8,7 +8,7 @@ author: "tom mcandrew"
 description: "This course aims to introduce students to models that describe the spread of a pathogen through a population, and how models can support public health decisions. Students will be expected to complete mathematical/statistical exercises and write code that simulates infectious processes." 
 summary: "This course aims to introduce students to models that describe the spread of a pathogen through a population, and how models can support public health decisions. Students will be expected to complete mathematical/statistical exercises and write code that simulates infectious processes." 
 cover:
-    image: "course1.png"
+    image: "outbreak_science_logo.png"
     alt: "outbreak_science"
     relative: false
 editPost:
@@ -34,7 +34,7 @@ Students should note that the "book" may be updated periodically throughout the 
 
 - **Instructor:** Tom McAndrew  
 - **Email:** [mcandrew@lehigh.edu](mailto:mcandrew@lehigh.edu)  
-- **Office coordinates:** HST 175  
+- **Office coordinates:** Whitaker 318A
 - **Office hours:** To be voted on by students | By appointment  
 
 ---
