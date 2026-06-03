@@ -14,4 +14,6 @@ showToc: true
 disableAnchoredHeadings: false
 
 ---
+- [Principal Components Analysis](https://github.com/computationalUncertaintyLab/nuts_and_bolts/blob/main/PCA.ipynb)
+
 
