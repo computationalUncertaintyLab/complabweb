@@ -7,7 +7,7 @@ tags: ["misc"]
 author: "tom mcandrew"
 description: "A list of lessons"
 cover:
-    image: ""
+    image: "cover.png"
     alt: ""
     relative: false
 showToc: true
