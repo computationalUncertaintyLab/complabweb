@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Univariate Statistics on Computational Uncertainty Lab</title>
+    <link>https://compuncertlab.org/tags/univariate-statistics/</link>
+    <description>Recent content in Univariate Statistics on Computational Uncertainty Lab</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/univariate-statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Weathercasts to Healthcasts: A Campus Framework for Influenza Communication</title>
+      <link>https://compuncertlab.org/courses/id_health_comm/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/id_health_comm/</guid>
+      <description>A 14-week immersive project-based course on infectious disease forecasting, health communication, and building campus-specific influenza communication products.</description>
+    </item>
+    <item>
+      <title>Data Exploration in Python</title>
+      <link>https://compuncertlab.org/courses/data_exploration_in_python/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/data_exploration_in_python/</guid>
+      <description>This course provides an introduction to the fundamentals of programming in Python. Students will gain experience designing, implementing, and testing their Python code, as well as in using Jupyter Notebooks, and IPython for statistics and data analysis. Multiple programming paradigms will be explored. The course covers Python data types, input, and output, and control flow in the context of preparing, cleaning, transforming, and manipulating data. In addition, students will use Python to conduct exploratory data analyses, including computing descriptive statistics</description>
+    </item>
+    <item>
+      <title>Population Health Data Science 1 (Probability)</title>
+      <link>https://compuncertlab.org/courses/phds1/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/phds1/</guid>
+      <description>Univariate statistics;Probability;Sets</description>
+    </item>
+  </channel>
+</rss>

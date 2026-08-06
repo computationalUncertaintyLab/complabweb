@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mpox on Computational Uncertainty Lab</title>
-    <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/mpox/</link>
+    <link>https://compuncertlab.org/tags/mpox/</link>
     <description>Recent content in Mpox on Computational Uncertainty Lab</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50252/computationalUncertaintyLab/complabweb/tags/mpox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/mpox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assessing Human Judgment Forecasts in the Rapid Spread of the Mpox Outbreak: Insights and Challenges for Pandemic Preparedness</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2024-assessing/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2024-assessing/</guid>
+      <description>We collected -- between May 19, 2022 and July 31, 2022 -- 1275 forecasts from 442 individuals of six questions about the mpox outbreak where ground truth data are now available. Individual human judgment forecasts and an equally weighted ensemble were evaluated, as well as compared to a random walk, autoregressive, and doubling time model.</description>
+    </item>
     <item>
       <title>Early human judgment forecasts of human monkeypox, May 2022</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2022-mpoxhj/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2022-mpoxhj/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2022-mpoxhj/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2022-mpoxhj/</guid>
       <description>These results suggest that a human judgment forecasting platform can quickly generate probabilistic predictions for targets of public health importance</description>
     </item>
   </channel>

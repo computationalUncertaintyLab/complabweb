@@ -13,7 +13,7 @@ menu:
         - name: Books
           url: books/
           weight: 5 
-        - name: Papers
+        - name: Research Products
           url: papers/
           weight: 2
         - name: Courses
@@ -59,59 +59,45 @@ params:
     profileMode:
           enabled: true
           title: ""
-          subtitle: "The computational uncertainty lab aims to improve the health and well being of others through the study and application of computational models.
-	  Though we are experts in **infectious disease modeling**, the lab hosts a broad range of projects related to computational modeling and health sciences.
-	  **Lab PI**: prof mcandrew: mcandrew@lehigh.edu"
-          imageUrl: "compuncertlab.jpg"
-          imageWidth: 200
-          imageHeight: 200
+          subtitle: ""
+          imageUrl: "compuncertlab.png"
+          imageWidth: 220
+          imageHeight: 220
           buttons:
-            - name: Papers
-              url: papers/
+            - name: Lab members
+              url: members/
             - name: Courses
               url: courses/
+            - name: Research Products
+              url: papers/
             - name: Data
               url: data/
             - name: Books
               url: books/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Lab members
-              url: members/
             - name: Lab Docs
               url: lab_docs/
             - name: Apps
               url: apps/
 
-    socialIcons:
-        - name: CV
-          url: mcandrew_cv.pdf
-        - name: Email
-          url: mailto:mcandrew@lehigh.edu
-        - name: Zoom
-          url: https://lehigh.zoom.us/my/profmcandrew
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=JFIv-bIAAAAJ&hl=en
-        - name: GitHub
-          url: https://github.com/computationalUncertaintyLab
-        - name: YouTube
-          url: https://www.youtube.com/@tomcm100
+    # Personal contact links live on the PI profile (/members/mcandrew/), not the home splash.
+    socialIcons: []
 
     assets:
         disableScrollBarStyle: true
     cover:
         hiddenInList: false
-        hiddenInSingle: true
+        hiddenInSingle: false
+    members:
+        useClassicList: false   # true = old PaperMod list cards
+        enableCardExpand: true  # false = cards stay flat, no expand UI
+    courses:
+        useClassicList: false   # true = old PaperMod list cards
+    papers:
+        useClassicList: false   # true = old PaperMod list cards
     label:
-      text: "mcandrew@lehigh.edu (home)"
-      icon: favicon.ico
-      iconHeight: 18
+      text: "Computational Uncertainty Lab"
+      icon: compuncertlab.png
+      iconHeight: 28
 
 markup:
     goldmark:

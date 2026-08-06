@@ -2,6 +2,7 @@
 title: "Cheyenne Desmond"
 date: 2025-05-30
 lastmod: 2025-05-30
+role: "undergraduate"
 tags: ["math","stats","infectious diseases"]
 author: "Cheyenne Desmond"
 description: "Background on Cheyenne Desmond" 

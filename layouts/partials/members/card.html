@@ -1,0 +1,87 @@
+{{- $p := .page }}
+{{- $enableExpand := .enableExpand }}
+
+{{- $role := $p.Params.role | default "" }}
+{{- $roleLabel := dict
+  "pi" "Principal Investigator"
+  "postdoc" "Postdoc"
+  "graduate" "Graduate Student"
+  "undergraduate" "Undergraduate Student"
+}}
+{{- $displayRole := index $roleLabel $role | default ($role | title) }}
+
+{{- $summary := $p.Summary | plainify | htmlUnescape }}
+{{- $tags := "" }}
+{{- with $p.Params.tags }}
+  {{- $tags = delimit . " " }}
+{{- end }}
+
+{{- /* Resolve cover image from page bundle when possible */}}
+{{- $imgURL := "" }}
+{{- with $p.Params.cover.image }}
+  {{- $cover := ($p.Resources.ByType "image").GetMatch (printf "*%s*" .) }}
+  {{- if $cover }}
+    {{- $imgURL = $cover.RelPermalink }}
+  {{- end }}
+{{- end }}
+
+<article
+  class="member-card"
+  data-role="{{ $role }}"
+  data-name="{{ $p.Title | plainify | lower }}"
+  data-summary="{{ $summary | lower }}"
+  data-tags="{{ $tags | lower }}"
+  data-expand="{{ if $enableExpand }}true{{ else }}false{{ end }}"
+>
+  <a class="member-card-media" href="{{ $p.RelPermalink }}" aria-label="Profile for {{ $p.Title | plainify }}">
+    {{- if $imgURL }}
+    <img class="member-card-photo" src="{{ $imgURL }}" alt="" loading="lazy" width="200" height="200">
+    {{- else }}
+    <span class="member-card-photo member-card-photo--placeholder" aria-hidden="true">{{ substr ($p.Title | plainify) 0 1 }}</span>
+    {{- end }}
+  </a>
+
+  <div class="member-card-body">
+    <h3 class="member-card-name">
+      <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+    </h3>
+    {{- if $displayRole }}
+    <p class="member-card-role">{{ $displayRole }}</p>
+    {{- end }}
+    {{- if $summary }}
+    <p class="member-card-summary">{{ $summary }}</p>
+    {{- end }}
+
+    {{- if $enableExpand }}
+    {{- $emailOk := and $p.Params.email_address (ne $p.Params.email_address "") (ne $p.Params.email_address "XXX") }}
+    {{- $liOk := and $p.Params.linkedin_url (ne $p.Params.linkedin_url "") (ne $p.Params.linkedin_url "XXX") }}
+    {{- $ghOk := and $p.Params.github_url (ne $p.Params.github_url "") (ne $p.Params.github_url "XXX") }}
+    {{- $cvOk := and $p.Params.cv_url (ne $p.Params.cv_url "") (ne $p.Params.cv_url "XXX") (ne $p.Params.cv_url "XX") }}
+    {{- if or $emailOk $liOk $ghOk $cvOk }}
+    {{- $expandId := printf "member-expand-%s" ($p.File.ContentBaseName | default ($p.Title | urlize)) }}
+    <button type="button" class="member-card-toggle" aria-expanded="false" aria-controls="{{ $expandId }}">
+      <span class="member-card-toggle-label">Details</span>
+      <span class="member-card-chevron" aria-hidden="true"></span>
+    </button>
+    <div class="member-card-expand" id="{{ $expandId }}" aria-hidden="true">
+      <ul class="member-card-links">
+        {{- if $emailOk }}
+          <li><a href="mailto:{{ $p.Params.email_address }}">Email</a></li>
+        {{- end }}
+        {{- if $liOk }}
+          {{- $href := $p.Params.linkedin_url }}
+          {{- if not (hasPrefix $href "http") }}{{ $href = printf "https://%s" $href }}{{ end }}
+          <li><a href="{{ $href }}" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+        {{- end }}
+        {{- if $ghOk }}
+          <li><a href="{{ $p.Params.github_url }}" rel="noopener noreferrer" target="_blank">GitHub</a></li>
+        {{- end }}
+        {{- if $cvOk }}
+          <li><a href="{{ $p.Params.cv_url | relURL }}" rel="noopener noreferrer" target="_blank">CV</a></li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+    {{- end }}
+  </div>
+</article>

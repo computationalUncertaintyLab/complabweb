@@ -77,6 +77,50 @@
 {{- end }}
 {{- end -}}
 
+{{- /* Members directory filter / expand */}}
+{{- if and (eq .Section "members") .IsSection (not site.Params.members.useClassicList) }}
+{{- $membersJS := resources.Get "js/members-directory.js" | resources.Minify }}
+{{- if not site.Params.assets.disableFingerprinting }}
+{{- $membersJS = $membersJS | fingerprint }}
+<script defer crossorigin="anonymous" src="{{ $membersJS.RelPermalink }}" integrity="{{ $membersJS.Data.Integrity }}"></script>
+{{- else }}
+<script defer crossorigin="anonymous" src="{{ $membersJS.RelPermalink }}"></script>
+{{- end }}
+{{- end -}}
+
+{{- /* Courses directory search */}}
+{{- if and (eq .Section "courses") .IsSection (not site.Params.courses.useClassicList) }}
+{{- $coursesJS := resources.Get "js/courses-directory.js" | resources.Minify }}
+{{- if not site.Params.assets.disableFingerprinting }}
+{{- $coursesJS = $coursesJS | fingerprint }}
+<script defer crossorigin="anonymous" src="{{ $coursesJS.RelPermalink }}" integrity="{{ $coursesJS.Data.Integrity }}"></script>
+{{- else }}
+<script defer crossorigin="anonymous" src="{{ $coursesJS.RelPermalink }}"></script>
+{{- end }}
+{{- end -}}
+
+{{- /* Papers / research products directory search */}}
+{{- if and (eq .Section "papers") .IsSection (not site.Params.papers.useClassicList) }}
+{{- $papersJS := resources.Get "js/papers-directory.js" | resources.Minify }}
+{{- if not site.Params.assets.disableFingerprinting }}
+{{- $papersJS = $papersJS | fingerprint }}
+<script defer crossorigin="anonymous" src="{{ $papersJS.RelPermalink }}" integrity="{{ $papersJS.Data.Integrity }}"></script>
+{{- else }}
+<script defer crossorigin="anonymous" src="{{ $papersJS.RelPermalink }}"></script>
+{{- end }}
+{{- end -}}
+
+{{- /* Home splash bubble animation */}}
+{{- if .IsHome }}
+{{- $homeSplashJS := resources.Get "js/home-splash.js" | resources.Minify }}
+{{- if not site.Params.assets.disableFingerprinting }}
+{{- $homeSplashJS = $homeSplashJS | fingerprint }}
+<script defer crossorigin="anonymous" src="{{ $homeSplashJS.RelPermalink }}" integrity="{{ $homeSplashJS.Data.Integrity }}"></script>
+{{- else }}
+<script defer crossorigin="anonymous" src="{{ $homeSplashJS.RelPermalink }}"></script>
+{{- end }}
+{{- end -}}
+
 {{- /* Favicons */}}
 <link rel="icon" href="{{ site.Params.assets.favicon | default "favicon.ico" | absURL }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ site.Params.assets.favicon16x16 | default "favicon-16x16.png" | absURL }}">

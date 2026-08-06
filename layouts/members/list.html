@@ -1,0 +1,121 @@
+{{- define "main" }}
+
+{{- $useClassic := site.Params.members.useClassicList | default false }}
+{{- $enableExpand := site.Params.members.enableCardExpand | default true }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{- if .Content }}
+<div class="post-content members-intro">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- if $useClassic }}
+
+{{- /* Classic PaperMod post-entry list fallback */}}
+{{- $pages := where .RegularPages "Params.exclude_from_directory" "!=" true }}
+{{- $pages = where $pages "Params.role" "!=" "alumni" }}
+{{- $paginator := .Paginate $pages }}
+
+{{- range $paginator.Pages }}
+<article class="post-entry">
+  {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+  {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">{{ .Title }}</h2>
+  </header>
+  {{- if (ne (.Param "hideSummary") true) }}
+  <div class="entry-content">
+    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+  {{- if not (.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">«&nbsp;{{ i18n "prev_page" }}&nbsp;</a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{- i18n "next_page" }}&nbsp;»</a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- else }}
+
+{{- /* Directory UI */}}
+{{- $allMembers := where .RegularPages "Params.exclude_from_directory" "!=" true }}
+{{- $allMembers = where $allMembers "Params.role" "!=" "alumni" }}
+
+{{- $roleOrder := slice
+  (dict "key" "pi" "label" "Principal Investigator")
+  (dict "key" "postdoc" "label" "Postdocs")
+  (dict "key" "graduate" "label" "Graduate Students")
+  (dict "key" "undergraduate" "label" "Undergraduate Students")
+}}
+
+<div class="members-directory" id="members-directory" data-expand="{{ $enableExpand }}">
+  <div class="members-toolbar" role="search">
+    <label class="members-search-label" for="members-search">
+      <span class="visually-hidden">Search members</span>
+      <input
+        type="search"
+        id="members-search"
+        class="members-search"
+        placeholder="Search by name, interests, or tags…"
+        autocomplete="off"
+      >
+    </label>
+    <div class="members-filters" role="group" aria-label="Filter by role">
+      <button type="button" class="members-chip is-active" data-role-filter="all">All</button>
+      <button type="button" class="members-chip" data-role-filter="pi">PI</button>
+      <button type="button" class="members-chip" data-role-filter="postdoc">Postdocs</button>
+      <button type="button" class="members-chip" data-role-filter="graduate">Graduate</button>
+      <button type="button" class="members-chip" data-role-filter="undergraduate">Undergraduate</button>
+    </div>
+  </div>
+
+  <p class="members-empty" id="members-empty" hidden>No members match your search.</p>
+
+  {{- range $roleOrder }}
+  {{- $key := .key }}
+  {{- $label := .label }}
+  {{- $group := where $allMembers "Params.role" $key }}
+  {{- if $group }}
+  <section class="members-section" data-role-section="{{ $key }}" aria-labelledby="members-{{ $key }}-heading">
+    <h2 class="members-section-title" id="members-{{ $key }}-heading">{{ $label }}</h2>
+    <div class="members-grid">
+      {{- range $group.ByTitle }}
+      {{- partial "members/card.html" (dict "page" . "enableExpand" $enableExpand) }}
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+  {{- end }}
+
+  {{- with .Site.GetPage "members/past_members" }}
+  <p class="members-alumni-link">
+    <a href="{{ .RelPermalink }}">Alumni / past members →</a>
+  </p>
+  {{- end }}
+</div>
+
+{{- end }}
+
+{{- end }}

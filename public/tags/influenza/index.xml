@@ -2,17 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Influenza on Computational Uncertainty Lab</title>
-    <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/influenza/</link>
+    <link>https://compuncertlab.org/tags/influenza/</link>
     <description>Recent content in Influenza on Computational Uncertainty Lab</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 Oct 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50252/computationalUncertaintyLab/complabweb/tags/influenza/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/influenza/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enhancing local public health decision-making: Incorporating end-user perspectives into influenza forecasting models</title>
+      <link>https://compuncertlab.org/papers/frounfelker-2025-local_pub/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/frounfelker-2025-local_pub/</guid>
+      <description>The goals of this study are to: 1) understand the seasonal flu intervention decision-making process from the perspective of local public health officials and health care providers; and 2) identify these stakeholders’ data needs and priorities for flu forecasting models.</description>
+    </item>
+    <item>
+      <title>When Data Disappear:  Public Health Pays As Policy Strays</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2025-data_disappear/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2025-data_disappear/</guid>
+      <description>Illustrating the importance of public health data</description>
+    </item>
+    <item>
+      <title>Influenza Dashboard</title>
+      <link>https://compuncertlab.org/apps/flu_dash/</link>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/apps/flu_dash/</guid>
+      <description>Infleunza dashbaord at state level, showing ILI&#43; and hospitalization rates</description>
+    </item>
+    <item>
+      <title>A Cluster-Aggregate-Pool (CAP) Ensemble Algorithm for Improved Forecast Performance of influenza-like illness</title>
+      <link>https://compuncertlab.org/papers/wei-2023-cap/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/wei-2023-cap/</guid>
+      <description>We propose a novel Cluster-Aggregate-Pool or `CAP&amp;#39; ensemble algorithm that first clusters together individual forecasts, aggregates individual models that belong to the same cluster into a single forecast (called a cluster forecast), and then pools together cluster forecasts via a linear pool.</description>
+    </item>
     <item>
       <title>Adaptively stacking ensembles for influenza forecasting with incomplete data</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-adaptive/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2020-adaptive/</link>
       <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-adaptive/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2020-adaptive/</guid>
       <description>Needing no data at the beginning of an epidemic, an adaptive ensemble can quickly train and forecast an outbreak, providing a practical tool to public health officials looking for a forecast to conform to unique features of a specific season.</description>
     </item>
   </channel>

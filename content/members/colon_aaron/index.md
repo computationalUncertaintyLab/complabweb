@@ -2,6 +2,7 @@
 title: "Aaron Colon"
 date: 2024-05-30
 lastmod: 2024-09-08
+role: "undergraduate"
 tags: ["math","stats","infectious diseases"]
 author: "Aaron Colon"
 description: "Background on Aaron Colon" 

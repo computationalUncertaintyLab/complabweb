@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Epidemic Modeling on Computational Uncertainty Lab</title>
+    <link>https://compuncertlab.org/tags/epidemic-modeling/</link>
+    <description>Recent content in Epidemic Modeling on Computational Uncertainty Lab</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/epidemic-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Outbreak science 2</title>
+      <link>https://compuncertlab.org/courses/outbreak2/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/outbreak2/</guid>
+      <description>This course will focus on the dynamics, simulation, and inference of: the Kermack-McKendrick model (including age of infection), meta-population, and network models. The course will emphasize both the theory of advanced epidemic models and mathematical/statistical programming.</description>
+    </item>
+    <item>
+      <title>Outbreak science</title>
+      <link>https://compuncertlab.org/books/book1/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/books/book1/</guid>
+      <description>This course aims to introduce students to models that describe the spread of a pathogen through a population, and how models can support public health decisions. Students will be expected to complete mathematical/statistical exercises and write code that simulates infectious processes.</description>
+    </item>
+    <item>
+      <title>Outbreak science</title>
+      <link>https://compuncertlab.org/courses/course1/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/course1/</guid>
+      <description>This course aims to introduce students to models that describe the spread of a pathogen through a population, and how models can support public health decisions. Students will be expected to complete mathematical/statistical exercises and write code that simulates infectious processes.</description>
+    </item>
+  </channel>
+</rss>

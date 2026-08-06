@@ -2,6 +2,7 @@
 title: "Elmira (Ella) Stepanyan"
 date: 2025-09-24
 lastmod: 2025-09-24
+role: "undergraduate"
 tags: ["data science","infectious diseases"]
 author: "Elmira Stepanyan"
 description: "Background on Elmira (Ella) Stepanyan" 

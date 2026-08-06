@@ -2,66 +2,241 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Computational Uncertainty Lab</title>
-    <link>http://localhost:50252/computationalUncertaintyLab/complabweb/</link>
+    <link>https://compuncertlab.org/</link>
     <description>Recent content on Computational Uncertainty Lab</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50252/computationalUncertaintyLab/complabweb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anurag Subedi</title>
+      <link>https://compuncertlab.org/members/subedi_anurag/</link>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/subedi_anurag/</guid>
+      <description>Background on Anurag Subedi</description>
+    </item>
+    <item>
+      <title>Hanna Brosky</title>
+      <link>https://compuncertlab.org/members/brosky_hanna/</link>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/brosky_hanna/</guid>
+      <description>Background on Hanna Brosky</description>
+    </item>
+    <item>
+      <title>Nazia Afrin</title>
+      <link>https://compuncertlab.org/members/afrin_nazia/</link>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/afrin_nazia/</guid>
+      <description>Background on Nazia Afrin</description>
+    </item>
+    <item>
+      <title>Time series forecasting applied to infectious diseases</title>
+      <link>https://compuncertlab.org/courses/amph2025/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/amph2025/</guid>
+      <description>Tutorial of random walk, AR, MA, for seasonal and non-seasonal models</description>
+    </item>
+    <item>
+      <title>Elmira (Ella) Stepanyan</title>
+      <link>https://compuncertlab.org/members/stepanyan_elmira/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/stepanyan_elmira/</guid>
+      <description>Background on Elmira (Ella) Stepanyan</description>
+    </item>
+    <item>
+      <title>From Weathercasts to Healthcasts: A Campus Framework for Influenza Communication</title>
+      <link>https://compuncertlab.org/courses/id_health_comm/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/id_health_comm/</guid>
+      <description>A 14-week immersive project-based course on infectious disease forecasting, health communication, and building campus-specific influenza communication products.</description>
+    </item>
+    <item>
+      <title>Enhancing local public health decision-making: Incorporating end-user perspectives into influenza forecasting models</title>
+      <link>https://compuncertlab.org/papers/frounfelker-2025-local_pub/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/frounfelker-2025-local_pub/</guid>
+      <description>The goals of this study are to: 1) understand the seasonal flu intervention decision-making process from the perspective of local public health officials and health care providers; and 2) identify these stakeholders’ data needs and priorities for flu forecasting models.</description>
+    </item>
+    <item>
+      <title>Cheyenne Desmond</title>
+      <link>https://compuncertlab.org/members/desmond_cheyenne/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/desmond_cheyenne/</guid>
+      <description>Background on Cheyenne Desmond</description>
+    </item>
+    <item>
+      <title>tom mcandrew</title>
+      <link>https://compuncertlab.org/members/mcandrew/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/mcandrew/</guid>
+      <description>Background on mcandrew</description>
+    </item>
+    <item>
+      <title>Impact of Dobbs v. Jackson on Abortion Access in Colorado: An Analysis of Incidence and Demographic Shifts Post-Roe.</title>
+      <link>https://compuncertlab.org/papers/bryer-2025-dobbs/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/bryer-2025-dobbs/</guid>
+      <description>Objectives: To estimate the impact in the number of incident abortions due to the Dobbs v Jackson decision.</description>
+    </item>
+    <item>
+      <title>When Data Disappear:  Public Health Pays As Policy Strays</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2025-data_disappear/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2025-data_disappear/</guid>
+      <description>Illustrating the importance of public health data</description>
+    </item>
+    <item>
+      <title>Influenza Dashboard</title>
+      <link>https://compuncertlab.org/apps/flu_dash/</link>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/apps/flu_dash/</guid>
+      <description>Infleunza dashbaord at state level, showing ILI&#43; and hospitalization rates</description>
+    </item>
+    <item>
+      <title>Zach Thomas</title>
+      <link>https://compuncertlab.org/members/thomas_zach/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/thomas_zach/</guid>
+      <description>Background on Zach Thomas</description>
+    </item>
+    <item>
+      <title>Outbreak science 2</title>
+      <link>https://compuncertlab.org/courses/outbreak2/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/outbreak2/</guid>
+      <description>This course will focus on the dynamics, simulation, and inference of: the Kermack-McKendrick model (including age of infection), meta-population, and network models. The course will emphasize both the theory of advanced epidemic models and mathematical/statistical programming.</description>
+    </item>
+    <item>
+      <title>Data Exploration in Python</title>
+      <link>https://compuncertlab.org/courses/data_exploration_in_python/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/data_exploration_in_python/</guid>
+      <description>This course provides an introduction to the fundamentals of programming in Python. Students will gain experience designing, implementing, and testing their Python code, as well as in using Jupyter Notebooks, and IPython for statistics and data analysis. Multiple programming paradigms will be explored. The course covers Python data types, input, and output, and control flow in the context of preparing, cleaning, transforming, and manipulating data. In addition, students will use Python to conduct exploratory data analyses, including computing descriptive statistics</description>
+    </item>
+    <item>
+      <title>Outbreak science</title>
+      <link>https://compuncertlab.org/books/book1/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/books/book1/</guid>
+      <description>This course aims to introduce students to models that describe the spread of a pathogen through a population, and how models can support public health decisions. Students will be expected to complete mathematical/statistical exercises and write code that simulates infectious processes.</description>
+    </item>
+    <item>
+      <title>Outbreak science</title>
+      <link>https://compuncertlab.org/courses/course1/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/course1/</guid>
+      <description>This course aims to introduce students to models that describe the spread of a pathogen through a population, and how models can support public health decisions. Students will be expected to complete mathematical/statistical exercises and write code that simulates infectious processes.</description>
+    </item>
+    <item>
+      <title>Lela Boermeester</title>
+      <link>https://compuncertlab.org/members/boermeester_lela/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/boermeester_lela/</guid>
+      <description>Background on Lela Boermeester</description>
+    </item>
+    <item>
+      <title>Chimeric Forecasting: An experiment to leverage human judgment to improve forecasts of infectious disease using simulated surveillance data</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2024-chimeric/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2024-chimeric/</guid>
+      <description>We presented 3000 humans with simulated surveillance data about the number of incident hospitalizations from a current and two past seasons, and asked that they predict the peak time and intensity of the underlying epidemic</description>
+    </item>
+    <item>
+      <title>Aaron Colon</title>
+      <link>https://compuncertlab.org/members/colon_aaron/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/colon_aaron/</guid>
+      <description>Background on Aaron Colon</description>
+    </item>
     <item>
       <title>Location</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/location/</link>
+      <link>https://compuncertlab.org/location/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/location/</guid>
+      <guid>https://compuncertlab.org/location/</guid>
       <description>Professor McAndrew&amp;#39;s mailing and office addresses</description>
     </item>
     <item>
       <title>Office Hours</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/officehours/</link>
+      <link>https://compuncertlab.org/officehours/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/officehours/</guid>
+      <guid>https://compuncertlab.org/officehours/</guid>
       <description>Schedule and location for Professor McAndrew&amp;#39;s office hours.</description>
     </item>
     <item>
+      <title>Assessing Human Judgment Forecasts in the Rapid Spread of the Mpox Outbreak: Insights and Challenges for Pandemic Preparedness</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2024-assessing/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2024-assessing/</guid>
+      <description>We collected -- between May 19, 2022 and July 31, 2022 -- 1275 forecasts from 442 individuals of six questions about the mpox outbreak where ground truth data are now available. Individual human judgment forecasts and an equally weighted ensemble were evaluated, as well as compared to a random walk, autoregressive, and doubling time model.</description>
+    </item>
+    <item>
+      <title>The Watermelon Meow Meow Outbreak: Enhancing Public Health Education Through Real-World Experience, Statistical Programming, and Infectious Disease Modeling</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2024-watermelon/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2024-watermelon/</guid>
+      <description>The Watermelon Meow Meow (WMM) outbreak is a cumulative experience that teaches upper-level undergraduate/graduate students about infectious disease dynamics by asking students to: participate in a fictitious outbreak</description>
+    </item>
+    <item>
+      <title>A Cluster-Aggregate-Pool (CAP) Ensemble Algorithm for Improved Forecast Performance of influenza-like illness</title>
+      <link>https://compuncertlab.org/papers/wei-2023-cap/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/wei-2023-cap/</guid>
+      <description>We propose a novel Cluster-Aggregate-Pool or `CAP&amp;#39; ensemble algorithm that first clusters together individual forecasts, aggregates individual models that belong to the same cluster into a single forecast (called a cluster forecast), and then pools together cluster forecasts via a linear pool.</description>
+    </item>
+    <item>
+      <title>Population Health Data Science 2 (Regression)</title>
+      <link>https://compuncertlab.org/courses/phds2/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/phds2/</guid>
+      <description>Regression; Likelihood; Fisher Information; Regression</description>
+    </item>
+    <item>
+      <title>Population Health Data Science 1 (Probability)</title>
+      <link>https://compuncertlab.org/courses/phds1/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/phds1/</guid>
+      <description>Univariate statistics;Probability;Sets</description>
+    </item>
+    <item>
       <title>Early human judgment forecasts of human monkeypox, May 2022</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2022-mpoxhj/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2022-mpoxhj/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2022-mpoxhj/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2022-mpoxhj/</guid>
       <description>These results suggest that a human judgment forecasting platform can quickly generate probabilistic predictions for targets of public health importance</description>
     </item>
     <item>
       <title>Aggregating Human Judgment Probabilistic Predictions of Coronavirus Disease 2019 Transmission, Burden, and Preventive Measures</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/codi-2022-aggcovid19/</link>
+      <link>https://compuncertlab.org/papers/codi-2022-aggcovid19/</link>
       <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/codi-2022-aggcovid19/</guid>
+      <guid>https://compuncertlab.org/papers/codi-2022-aggcovid19/</guid>
       <description>Our work shows that aggregated human judgment forecasts for infectious agents are timely, accurate, and adaptable, and can be used as a tool to aid public health decision making during outbreaks.</description>
     </item>
     <item>
       <title>Aggregating probabilistic predictions of the safety, efficacy, and timing of a COVID-19 vaccine</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2021-vaccine/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2021-vaccine/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2021-vaccine/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2021-vaccine/</guid>
       <description>To support public health decision making, we solicited trained forecasters and experts in vaccinology and infectious disease to provide monthly probabilistic predictions from July to September of 2020 of the efficacy, safety, timing, and delivery of a COVID-19 vaccine.</description>
     </item>
     <item>
       <title>Adaptively stacking ensembles for influenza forecasting with incomplete data</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-adaptive/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2020-adaptive/</link>
       <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-adaptive/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2020-adaptive/</guid>
       <description>Needing no data at the beginning of an epidemic, an adaptive ensemble can quickly train and forecast an outbreak, providing a practical tool to public health officials looking for a forecast to conform to unique features of a specific season.</description>
     </item>
     <item>
       <title>An expert judgment model to predict early stages of the COVID-19 outbreak in the United States</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-expertjudgmentcovid/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2020-expertjudgmentcovid/</link>
       <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-expertjudgmentcovid/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2020-expertjudgmentcovid/</guid>
       <description>This work highlights the importance that an expert linear pool could play in flexibly assessing a wide array of risks early in future emerging outbreaks, especially in settings where available data cannot yet support data-driven computational modeling.</description>
     </item>
     <item>
       <title>Aggregating predictions from experts: a scoping review of statistical methods, experiments, and applications</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-scopingreview/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2019-scopingreview/</link>
       <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-scopingreview/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2019-scopingreview/</guid>
       <description>&lt;hr&gt;
 &lt;h5 id=&#34;download&#34;&gt;Download&lt;/h5&gt;
 &lt;ul&gt;
@@ -74,696 +249,689 @@
     </item>
     <item>
       <title>An expert judgment model to predict early stages of the COVID-19 outbreak in the United States</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-cox/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2019-cox/</link>
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-cox/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2019-cox/</guid>
       <description>Compared to fixed effect models, random effects suffer lower bias and trade inflated type I errors for improved power. Contrasting hazard rates between trials prevent accurate estimates from both fixed and random effects models.</description>
     </item>
     <item>
       <title>Accuracy of fractional flow reserve derived from coronary angiography</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/fearon-2019-accuracy/</link>
+      <link>https://compuncertlab.org/papers/cardioology/fearon-2019-accuracy/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/fearon-2019-accuracy/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/fearon-2019-accuracy/</guid>
       <description></description>
     </item>
     <item>
       <title>Adverse events in patients with high platelet reactivity following successful chronic total occlusion PCI: The Assessment of Dual AntiPlatelet Therapy with Drug-Eluting Stents (ADAPT-DES) study</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/finn-2019-adverse/</link>
+      <link>https://compuncertlab.org/papers/cardioology/finn-2019-adverse/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/finn-2019-adverse/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/finn-2019-adverse/</guid>
       <description></description>
     </item>
     <item>
       <title>Association of Statin Use and Mortality After Transcatheter Aortic Valve Replacement</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/peri-2019-association/</link>
+      <link>https://compuncertlab.org/papers/cardioology/peri-2019-association/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/peri-2019-association/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/peri-2019-association/</guid>
       <description></description>
     </item>
     <item>
       <title>Development of an Individual Patient Database of Participants from Randomized Trials of Periprocedural Anticoagulation with Bivalirudin versus Heparin in Percutaneous Coronary Intervention: Rationale and Methodological Considerations</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/bikdeli-2019-development/</link>
+      <link>https://compuncertlab.org/papers/cardioology/bikdeli-2019-development/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/bikdeli-2019-development/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/bikdeli-2019-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Diagnostic Performance of Angiography-based Fractional Flow Reserve in Subgroups: report from the FAST-FFR study</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kobayashi-2019-diagnostic/</link>
+      <link>https://compuncertlab.org/papers/cardioology/kobayashi-2019-diagnostic/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kobayashi-2019-diagnostic/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/kobayashi-2019-diagnostic/</guid>
       <description></description>
     </item>
     <item>
       <title>Effect of Baseline Left Ventricular Ejection Fraction on 2-Year Outcomes After Transcatheter Aortic Valve Replacement: Analysis of the PARTNER 2 Trials</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/furer-2019-effect/</link>
+      <link>https://compuncertlab.org/papers/cardioology/furer-2019-effect/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/furer-2019-effect/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/furer-2019-effect/</guid>
       <description></description>
     </item>
     <item>
       <title>Impact of large periprocedural myocardial infarction on mortality after percutaneous coronary intervention and coronary artery bypass grafting for left main disease: an analysis from the EXCEL trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/ben-2019-impact/</link>
+      <link>https://compuncertlab.org/papers/cardioology/ben-2019-impact/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/ben-2019-impact/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/ben-2019-impact/</guid>
       <description></description>
     </item>
     <item>
       <title>Impact of point-of-care platelet function testing among patients with and without acute coronary syndromes undergoing percutaneous coronary intervention with drug-eluting stents (from the ADAPT-DES Study)</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/rinaldi-2019-impact/</link>
+      <link>https://compuncertlab.org/papers/cardioology/rinaldi-2019-impact/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/rinaldi-2019-impact/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/rinaldi-2019-impact/</guid>
       <description></description>
     </item>
     <item>
       <title>Impact of pre-diabetes on coronary plaque composition and clinical outcome in patients with acute coronary syndromes: an analysis from the PROSPECT study</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/farhan-2019-impact/</link>
+      <link>https://compuncertlab.org/papers/cardioology/farhan-2019-impact/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/farhan-2019-impact/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/farhan-2019-impact/</guid>
       <description></description>
     </item>
     <item>
       <title>Impact of short-term complications on mortality and quality of life after transcatheter aortic valve replacement</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/arnold-2019-impact/</link>
+      <link>https://compuncertlab.org/papers/cardioology/arnold-2019-impact/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/arnold-2019-impact/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/arnold-2019-impact/</guid>
       <description></description>
     </item>
     <item>
       <title>Implications of Left Ventricular Geometry in Low-Flow Aortic Stenosis: A PARTNER 2 Trial Subanalysis.</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/gertz-2019-implications/</link>
+      <link>https://compuncertlab.org/papers/cardioology/gertz-2019-implications/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/gertz-2019-implications/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/gertz-2019-implications/</guid>
       <description></description>
     </item>
     <item>
       <title>In vitro mechanical behavior and in vivo healing response of a novel thin-strut ultrahigh molecular weight poly-l-lactic acid sirolimus-eluting bioresorbable coronary scaffold in normal swine</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/cheng-2019-vitro/</link>
+      <link>https://compuncertlab.org/papers/cardioology/cheng-2019-vitro/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/cheng-2019-vitro/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/cheng-2019-vitro/</guid>
       <description></description>
     </item>
     <item>
       <title>Incidence and predictors of target lesion failure in patients undergoing contemporary DES implantation—Individual patient data pooled analysis from 6 randomized controlled trials</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/konigstein-2019-incidence/</link>
+      <link>https://compuncertlab.org/papers/cardioology/konigstein-2019-incidence/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/konigstein-2019-incidence/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/konigstein-2019-incidence/</guid>
       <description></description>
     </item>
     <item>
       <title>Outcomes of left main revascularization in patients with acute coronary syndromes and stable ischemic heart disease: Analysis from the EXCEL trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/doucet-2019-outcomes/</link>
+      <link>https://compuncertlab.org/papers/cardioology/doucet-2019-outcomes/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/doucet-2019-outcomes/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/doucet-2019-outcomes/</guid>
       <description></description>
     </item>
     <item>
       <title>Predictors of mortality in patients with non-anterior ST-segment elevation myocardial infarction: Analysis from the HORIZONS-AMI trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/huang-2019-predictors/</link>
+      <link>https://compuncertlab.org/papers/cardioology/huang-2019-predictors/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/huang-2019-predictors/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/huang-2019-predictors/</guid>
       <description></description>
     </item>
     <item>
       <title>Bleeding Severity After Percutaneous Coronary Intervention</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2018-bleeding/</link>
+      <link>https://compuncertlab.org/papers/cardioology/redfors-2018-bleeding/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2018-bleeding/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/redfors-2018-bleeding/</guid>
       <description></description>
     </item>
     <item>
       <title>Crossing points in survival analysis sensitively depend on system conditions</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2018-crossing/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2018-crossing/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2018-crossing/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2018-crossing/</guid>
       <description>&lt;p&gt;Crossing survival curves complicate how we interpret results from a clinical trial&amp;rsquo;s primary endpoint. We find the function to determine a crossing point&amp;rsquo;s location depends exponentially on individual survival curves. This exponential relationship between survival curves and the crossing point transforms small survival curve errors into large crossing point errors. In most cases, crossing points are sensitive to individual survival errors and may make accurately locating a crossing point unsuccessful. We argue more complicated analyses for mitigating crossing points should be reserved only after first exploring a crossing point&amp;rsquo;s variability, or hypothesis tests account for crossing point variability.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Efficacy and safety of bivalirudin in coronary artery disease patients with mild to moderate chronic kidney disease: Meta-analysis</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/zeng-2018-efficacy/</link>
+      <link>https://compuncertlab.org/papers/cardioology/zeng-2018-efficacy/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/zeng-2018-efficacy/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/zeng-2018-efficacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Impact Of Lesion Preparation Strategies On Outcomes Of Left Main Pci: The EXCEL Trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/beohar-2018-impact/</link>
+      <link>https://compuncertlab.org/papers/cardioology/beohar-2018-impact/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/beohar-2018-impact/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/beohar-2018-impact/</guid>
       <description></description>
     </item>
     <item>
       <title>Incidence And Predictors Of Contemporary DES Failure: Individual-Patient Data Pooled Analysis From 11 Randomized Controlled Trials</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/konigstein-2018-incidence/</link>
+      <link>https://compuncertlab.org/papers/cardioology/konigstein-2018-incidence/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/konigstein-2018-incidence/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/konigstein-2018-incidence/</guid>
       <description></description>
     </item>
     <item>
       <title>Left Main Revascularization With PCI or CABG in Patients With Chronic Kidney Disease: EXCEL Trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/giustino-2018-left/</link>
+      <link>https://compuncertlab.org/papers/cardioology/giustino-2018-left/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/giustino-2018-left/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/giustino-2018-left/</guid>
       <description></description>
     </item>
     <item>
       <title>New-Onset Atrial Fibrillation After PCI or CABG for Left Main Disease: The EXCEL Trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2018-new/</link>
+      <link>https://compuncertlab.org/papers/cardioology/kosmidou-2018-new/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2018-new/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/kosmidou-2018-new/</guid>
       <description></description>
     </item>
     <item>
       <title>Outcomes after coronary stenting or bypass surgery for men and women with unprotected left main disease: the EXCEL trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/serruys-2018-outcomes/</link>
+      <link>https://compuncertlab.org/papers/cardioology/serruys-2018-outcomes/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/serruys-2018-outcomes/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/serruys-2018-outcomes/</guid>
       <description></description>
     </item>
     <item>
       <title>Outcomes after Transcatheter and Surgical Aortic Valve Replacement in Intermediate Risk Patients with Preoperative Mitral Regurgitation: Analysis of PARTNER II Randomized Cohort</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/malaisrie-2018-outcomes/</link>
+      <link>https://compuncertlab.org/papers/cardioology/malaisrie-2018-outcomes/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/malaisrie-2018-outcomes/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/malaisrie-2018-outcomes/</guid>
       <description></description>
     </item>
     <item>
       <title>Percutaneous coronary intervention of bifurcation lesions and platelet reactivity</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2018-percutaneous/</link>
+      <link>https://compuncertlab.org/papers/cardioology/redfors-2018-percutaneous/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2018-percutaneous/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/redfors-2018-percutaneous/</guid>
       <description></description>
     </item>
     <item>
       <title>Platelet Reactivity and Risk of Ischemic Stroke After Coronary Drug-Eluting Stent Implantation: From the ADAPT-DES Study</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/giustino-2018-platelet/</link>
+      <link>https://compuncertlab.org/papers/cardioology/giustino-2018-platelet/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/giustino-2018-platelet/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/giustino-2018-platelet/</guid>
       <description></description>
     </item>
     <item>
       <title>Prediction of ischemic and bleeding events using the dual antiplatelet therapy score in an unrestricted percutaneous coronary intervention population: analysis from the ADAPT-DES registry</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/brener-2018-prediction/</link>
+      <link>https://compuncertlab.org/papers/cardioology/brener-2018-prediction/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/brener-2018-prediction/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/brener-2018-prediction/</guid>
       <description></description>
     </item>
     <item>
       <title>Predictors of Left Ventricular Remodeling After Myocardial Infarction in Patients With a Patent Infarct Related Coronary Artery After Percutaneous Coronary Intervention (from the Post-Myocardial Infarction Remodeling Prevention Therapy [PRomPT] Trial)</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/garber-2018-predictors/</link>
+      <link>https://compuncertlab.org/papers/cardioology/garber-2018-predictors/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/garber-2018-predictors/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/garber-2018-predictors/</guid>
       <description></description>
     </item>
     <item>
       <title>Reduced Baseline Ejection Fraction Is Associated With Increased Cardiovascular Mortality After Transcatheter Aortic Valve Replacement: Results From The PARTNER Ii Trials</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/furer-2018-reduced/</link>
+      <link>https://compuncertlab.org/papers/cardioology/furer-2018-reduced/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/furer-2018-reduced/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/furer-2018-reduced/</guid>
       <description></description>
     </item>
     <item>
       <title>Relationship between intravascular ultrasound guidance and clinical outcomes after drug-eluting stents: two-year follow-up of the ADAPT-DES study</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/maehara-2018-relationship/</link>
+      <link>https://compuncertlab.org/papers/cardioology/maehara-2018-relationship/</link>
       <pubDate>Wed, 07 Aug 2019 13:51:37 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/maehara-2018-relationship/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/maehara-2018-relationship/</guid>
       <description></description>
     </item>
     <item>
       <title>Routine Early Discharge After Transcatheter Aortic Valve Replacement: A Propensity Score Analysis From The PARTNER 2 Sapien 3 Study</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/devireddy-2018-routine/</link>
+      <link>https://compuncertlab.org/papers/cardioology/devireddy-2018-routine/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/devireddy-2018-routine/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/devireddy-2018-routine/</guid>
       <description></description>
     </item>
     <item>
       <title>The effect of post-dilatation on outcomes in the PARTNER 2 SAPIEN 3 registry</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/hahn-2018-effect/</link>
+      <link>https://compuncertlab.org/papers/cardioology/hahn-2018-effect/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/hahn-2018-effect/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/hahn-2018-effect/</guid>
       <description></description>
     </item>
     <item>
       <title>Reply &amp; Supply: Efficient crowdsourcing when workers do more than answer questions</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2017-reply/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2017-reply/</link>
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2017-reply/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2017-reply/</guid>
       <description>By modeling question sets as networks of interrelated questions, we introduce algorithms to help curtail the growth bias by efficiently distributing workers between exploring new questions and addressing current questions.</description>
     </item>
     <item>
       <title>Comparative Biomechanical Behavior and Healing Profile of a Novel Thinned Wall Ultrahigh Molecular Weight Amorphous Poly-l-Lactic Acid Sirolimus-Eluting Bioresorbable Coronary Scaffold</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/cheng-2017-comparative/</link>
+      <link>https://compuncertlab.org/papers/cardioology/cheng-2017-comparative/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/cheng-2017-comparative/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/cheng-2017-comparative/</guid>
       <description></description>
     </item>
     <item>
       <title>Comparison of Outcomes and Prognosis of Patients With Versus Without Newly Diagnosed Diabetes Mellitus After Primary Percutaneous Coronary Intervention for ST-Elevation Myocardial Infarction (the HORIZONS-AMI Study)</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/ertelt-2017-comparison/</link>
+      <link>https://compuncertlab.org/papers/cardioology/ertelt-2017-comparison/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/ertelt-2017-comparison/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/ertelt-2017-comparison/</guid>
       <description></description>
     </item>
     <item>
       <title>Correlation of Admission Heart Rate With Angiographic and Clinical Outcomes in Patients With Right Coronary Artery ST-Segment Elevation Myocardial Infarction Undergoing Primary Percutaneous Coronary Intervention: HORIZONS-AMI (The Harmonizing Outcomes With Revascularization and Stents in Acute Myocardial Infarction) Trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2017-correlation/</link>
+      <link>https://compuncertlab.org/papers/cardioology/kosmidou-2017-correlation/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2017-correlation/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/kosmidou-2017-correlation/</guid>
       <description></description>
     </item>
     <item>
       <title>Early Ventricular Tachycardia or Fibrillation in Patients With ST Elevation Myocardial Infarction Undergoing Primary Percutaneous Coronary Intervention and Impact on Mortality and Stent Thrombosis (from the Harmonizing Outcomes with Revascularization and Stents in Acute Myocardial Infarction Trial)</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2017-early/</link>
+      <link>https://compuncertlab.org/papers/cardioology/kosmidou-2017-early/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2017-early/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/kosmidou-2017-early/</guid>
       <description></description>
     </item>
     <item>
       <title>Effect Of Thrombotic And Bleeding Risk According To Platelet Reactivity On 2-Year Mortality: The ADAPT-DES Study</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/chandrasekhar-2017-effect/</link>
+      <link>https://compuncertlab.org/papers/cardioology/chandrasekhar-2017-effect/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/chandrasekhar-2017-effect/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/chandrasekhar-2017-effect/</guid>
       <description></description>
     </item>
     <item>
       <title>Impact of TCFA on unanticipated ischemic events in medically treated diabetes mellitus: insights from the PROSPECT study</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kedhi-2017-impact/</link>
+      <link>https://compuncertlab.org/papers/cardioology/kedhi-2017-impact/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kedhi-2017-impact/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/kedhi-2017-impact/</guid>
       <description></description>
     </item>
     <item>
       <title>Incidence, Predictors, and Outcomes of High-Grade Atrioventricular Block in Patients With ST-Segment Elevation Myocardial Infarction Undergoing Primary Percutaneous Coronary Intervention (from the HORIZONS-AMI Trial)</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2017-incidence/</link>
+      <link>https://compuncertlab.org/papers/cardioology/kosmidou-2017-incidence/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2017-incidence/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/kosmidou-2017-incidence/</guid>
       <description></description>
     </item>
     <item>
       <title>Is Platelet Reactivity Associated With Ischemic Events Following Successful Chronic Total Occlusion Percutaneous Coronary Intervention</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/finn-2017-platelet/</link>
+      <link>https://compuncertlab.org/papers/cardioology/finn-2017-platelet/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/finn-2017-platelet/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/finn-2017-platelet/</guid>
       <description></description>
     </item>
     <item>
       <title>Mortality, Length of Stay, and Cost Implications of Procedural Bleeding After Percutaneous Interventions Using Large-Bore Catheters</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2017-mortality/</link>
+      <link>https://compuncertlab.org/papers/cardioology/redfors-2017-mortality/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2017-mortality/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/redfors-2017-mortality/</guid>
       <description></description>
     </item>
     <item>
       <title>Outcomes After Successful Percutaneous Coronary Intervention of Calcified Lesions Using Rotational Atherectomy, Cutting Balloon Angioplasty, or Balloon-Only Angioplasty Before Drug-Eluting Stent Implantation.</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2017-outcomes/</link>
+      <link>https://compuncertlab.org/papers/cardioology/redfors-2017-outcomes/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2017-outcomes/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/redfors-2017-outcomes/</guid>
       <description></description>
     </item>
     <item>
       <title>Outcomes in elderly and young patients with ST-segment elevation myocardial infarction undergoing primary percutaneous coronary intervention with bivalirudin versus heparin: pooled analysis from the EUROMAX and HORIZONS-AMI trials</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/qaderdan-2017-outcomes/</link>
+      <link>https://compuncertlab.org/papers/cardioology/qaderdan-2017-outcomes/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/qaderdan-2017-outcomes/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/qaderdan-2017-outcomes/</guid>
       <description></description>
     </item>
     <item>
       <title>Percutaneous Coronary Intervention of Saphenous Vein Graft</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2017-percutaneous/</link>
+      <link>https://compuncertlab.org/papers/cardioology/redfors-2017-percutaneous/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2017-percutaneous/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/redfors-2017-percutaneous/</guid>
       <description></description>
     </item>
     <item>
       <title>Platelet Reactivity And Outcomes After PCI Of Lesions With And Without In-Stent Restenosis: The ADAPT-DES Study</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2017-platelet/</link>
+      <link>https://compuncertlab.org/papers/cardioology/redfors-2017-platelet/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2017-platelet/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/redfors-2017-platelet/</guid>
       <description></description>
     </item>
     <item>
       <title>Serial 3-Vessel Optical Coherence Tomography and Intravascular Ultrasound Analysis of Changing Morphologies Associated With Lesion Progression in Patients With Stable Angina PectorisCLINICAL PERSPECTIVE</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/yamamoto-2017-serial/</link>
+      <link>https://compuncertlab.org/papers/cardioology/yamamoto-2017-serial/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/yamamoto-2017-serial/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/yamamoto-2017-serial/</guid>
       <description></description>
     </item>
     <item>
       <title>Staging classification of aortic stenosis based on the extent of cardiac damage</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/genereux-2017-staging/</link>
+      <link>https://compuncertlab.org/papers/cardioology/genereux-2017-staging/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/genereux-2017-staging/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/genereux-2017-staging/</guid>
       <description></description>
     </item>
     <item>
       <title>The Myocardial Contraction Fraction Predicts Adverse Events after Transcatheter Aortic Valve Replacement: P2-16</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/madhavan-2017-myocardial/</link>
+      <link>https://compuncertlab.org/papers/cardioology/madhavan-2017-myocardial/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/madhavan-2017-myocardial/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/madhavan-2017-myocardial/</guid>
       <description></description>
     </item>
     <item>
       <title>Worsening atrioventricular conduction after hospital discharge in patients with ST-segment elevation myocardial infarction undergoing primary percutaneous coronary intervention: the HORIZONS-AMI trial.</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2017-worsening/</link>
+      <link>https://compuncertlab.org/papers/cardioology/kosmidou-2017-worsening/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2017-worsening/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/kosmidou-2017-worsening/</guid>
       <description></description>
     </item>
     <item>
       <title>What we write about when we write about causality: Features of causal statements across large-scale social discourse</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2016-we/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2016-we/</link>
       <pubDate>Thu, 18 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2016-we/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2016-we/</guid>
       <description>We find that causal statements have a number of significant lexical and grammatical differences compared to non-causal language</description>
     </item>
     <item>
       <title>Detection of cyber-physical faults and intrusions from physical correlations</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cyber_physical_systems/lokhov-2016-detection/</link>
+      <link>https://compuncertlab.org/papers/cyber_physical_systems/lokhov-2016-detection/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cyber_physical_systems/lokhov-2016-detection/</guid>
+      <guid>https://compuncertlab.org/papers/cyber_physical_systems/lokhov-2016-detection/</guid>
       <description></description>
     </item>
     <item>
       <title>TCT-94 Impact of Thin-Cap Fibroatheromas on Unanticipated Ischemic Events in Medically Treated Patients With Diabetes Mellitus: Insights From the PROSPECT Study</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kedhi-2016-tct/</link>
+      <link>https://compuncertlab.org/papers/cardioology/kedhi-2016-tct/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kedhi-2016-tct/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/kedhi-2016-tct/</guid>
       <description></description>
     </item>
     <item>
       <title>Robustness of spatial micronetworks</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2015-robustness/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2015-robustness/</link>
       <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2015-robustness/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2015-robustness/</guid>
       <description>Accounting for spatial effects in both construction and robustness is important for designing efficient microgrids and other network infrastructure.</description>
     </item>
     <item>
       <title>HPV16 CpG methylation patterns determined by next-gen bisulfite sequencing and association with cervix precancer/cancer</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/frimer-2012-hpv-16/</link>
+      <link>https://compuncertlab.org/papers/obstetrics/frimer-2012-hpv-16/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/frimer-2012-hpv-16/</guid>
+      <guid>https://compuncertlab.org/papers/obstetrics/frimer-2012-hpv-16/</guid>
       <description></description>
     </item>
     <item>
-      <title>List of Irregular Verbs Across Romance Languages</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/data/data1/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/data/data1/</guid>
-      <description>This dataset contains all irregular verbs in known Romance languages.</description>
-    </item>
-    <item>
-      <title>Unusual Uses For Olive Oil</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/paper1/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/paper1/</guid>
-      <description>This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.</description>
-    </item>
-    <item>
       <title>Association Between Coronary Calcification And Bleeding After Pci In Acs: Pooled Analysis From Horizons-Ami And Acuity Trials</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/genereux-2013-association/</link>
+      <link>https://compuncertlab.org/papers/cardioology/genereux-2013-association/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/genereux-2013-association/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/genereux-2013-association/</guid>
       <description></description>
     </item>
     <item>
       <title>Comparison of the environmental impact of commonly used surgical approaches to hysterectomy</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/woods-2013-comparison/</link>
+      <link>https://compuncertlab.org/papers/obstetrics/woods-2013-comparison/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/woods-2013-comparison/</guid>
+      <guid>https://compuncertlab.org/papers/obstetrics/woods-2013-comparison/</guid>
       <description></description>
     </item>
     <item>
       <title>Complementary Predictive Value Of Myocardial Blush Grade And St-Segment Resolution After Primary Pci: An Analysis From Horizons-Ami</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/brener-2013-complementary/</link>
+      <link>https://compuncertlab.org/papers/cardioology/brener-2013-complementary/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/brener-2013-complementary/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/brener-2013-complementary/</guid>
       <description></description>
     </item>
     <item>
       <title>Impact of bivalirudin and paclitaxel-eluting stents on outcomes in patients undergoing primary percutaneous coronary intervention of the left anterior descending artery</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/wohrle-2013-impact/</link>
+      <link>https://compuncertlab.org/papers/cardioology/wohrle-2013-impact/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/wohrle-2013-impact/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/wohrle-2013-impact/</guid>
       <description></description>
     </item>
     <item>
       <title>Impact of coronary calcification on one-year outcomes after PCI in STEMI and NSTEMI: pooled analysis from horizons and ACUITY trials</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/genereux-2013-impact/</link>
+      <link>https://compuncertlab.org/papers/cardioology/genereux-2013-impact/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/genereux-2013-impact/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/genereux-2013-impact/</guid>
       <description></description>
     </item>
     <item>
       <title>Impact of paravalvular leak following transcatheter aortic valve replacement on one-year mortality: analysis of the combined PARTNER cohorts</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kodali-2013-impact/</link>
+      <link>https://compuncertlab.org/papers/cardioology/kodali-2013-impact/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kodali-2013-impact/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/kodali-2013-impact/</guid>
       <description></description>
     </item>
     <item>
       <title>Impact of preoperative moderate/severe mitral regurgitation on 2-year outcome after transcatheter and surgical aortic valve replacement: insight from the PARTNER (Placement of AoRTic TraNscathetER Valve) Trial Cohort A</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/barbanti-2013-impact/</link>
+      <link>https://compuncertlab.org/papers/cardioology/barbanti-2013-impact/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/barbanti-2013-impact/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/barbanti-2013-impact/</guid>
       <description></description>
     </item>
     <item>
       <title>Moderated Poster Differences in Baseline Echo Parameters in Patients with Varying Severity of Paravalvular Regurgitation Following Transcatheter Valve Replacement</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/hahn-2013-moderated/</link>
+      <link>https://compuncertlab.org/papers/cardioology/hahn-2013-moderated/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/hahn-2013-moderated/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/hahn-2013-moderated/</guid>
       <description></description>
     </item>
     <item>
       <title>Moderated Poster: Predictors of Impact of Prosthesis-patient Mismatch following Transcatheter Aortic Valve Replacement-A Partner Trial Cohort A Analysis</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/pibarot-2013-moderated/</link>
+      <link>https://compuncertlab.org/papers/cardioology/pibarot-2013-moderated/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/pibarot-2013-moderated/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/pibarot-2013-moderated/</guid>
       <description></description>
     </item>
     <item>
       <title>OBSTETRICIANS/GYNECOLOGISTS AND HEART HEALTH: UNTAPPED ALLIES IN THE FIGHT ON CARDIOVASCULAR DISEASE</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/rosser-2013-obstetricians/</link>
+      <link>https://compuncertlab.org/papers/obstetrics/rosser-2013-obstetricians/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/rosser-2013-obstetricians/</guid>
+      <guid>https://compuncertlab.org/papers/obstetrics/rosser-2013-obstetricians/</guid>
       <description></description>
     </item>
     <item>
       <title>Post-dilatation and Procedural Outcomes in the PARTNER I Trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/hahn-2013-post/</link>
+      <link>https://compuncertlab.org/papers/cardioology/hahn-2013-post/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/hahn-2013-post/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/hahn-2013-post/</guid>
       <description></description>
     </item>
     <item>
       <title>Prediction of 1-year mortality in patients with acute coronary syndromes undergoing percutaneous coronary intervention: validation of the logistic clinical SYNTAX (Synergy Between Percutaneous Coronary Interventions With Taxus and Cardiac Surgery) score</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/farooq-2013-prediction/</link>
+      <link>https://compuncertlab.org/papers/cardioology/farooq-2013-prediction/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/farooq-2013-prediction/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/farooq-2013-prediction/</guid>
       <description></description>
     </item>
     <item>
       <title>Regression of Severe Left Ventricular Hypertrophy After Transcatheter Valve Replacement for Aortic Stenosis: Impact on Clinical Outcomes in PARTNER Cohort A</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/lindman-2013-regression/</link>
+      <link>https://compuncertlab.org/papers/cardioology/lindman-2013-regression/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/lindman-2013-regression/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/lindman-2013-regression/</guid>
       <description></description>
     </item>
     <item>
       <title>Relation between six-minute walk test performance and outcomes after transcatheter aortic valve implantation (from the PARTNER trial)</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/green-2013-relation/</link>
+      <link>https://compuncertlab.org/papers/cardioology/green-2013-relation/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/green-2013-relation/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/green-2013-relation/</guid>
       <description></description>
     </item>
     <item>
       <title>Sex-Specific Differences In Late Mortality After Transcatheter AVR In The PARTNER Trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kodali-2013-sex/</link>
+      <link>https://compuncertlab.org/papers/cardioology/kodali-2013-sex/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kodali-2013-sex/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/kodali-2013-sex/</guid>
       <description></description>
     </item>
     <item>
       <title>Stenting During STEMI Is Associated With Less Neointimal Hyperplasia: A Pooled IVUS Analysis From The HORIZONS-AMI And Taxus IV, V, And ATLAS Trials</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kobayashi-2013-stenting/</link>
+      <link>https://compuncertlab.org/papers/cardioology/kobayashi-2013-stenting/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kobayashi-2013-stenting/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/kobayashi-2013-stenting/</guid>
       <description></description>
     </item>
     <item>
       <title>TCT-112 Left Ventricular Ejection Fraction Improves Less after Trans-Apical Transcatheter Aortic Valve Replacement Compared to a Trans-Femoral Approach</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/fearon-2013-tct/</link>
+      <link>https://compuncertlab.org/papers/cardioology/fearon-2013-tct/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/fearon-2013-tct/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/fearon-2013-tct/</guid>
       <description></description>
     </item>
     <item>
       <title>TCT-113 Clinical and Left Ventricular Functional Outcomes Associated with Cardiac Biomarker Elevation after Transfemoral TAVR: A Sub-analysis from the PARTNER Trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/zajarias-2013-tct/</link>
+      <link>https://compuncertlab.org/papers/cardioology/zajarias-2013-tct/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/zajarias-2013-tct/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/zajarias-2013-tct/</guid>
       <description></description>
     </item>
     <item>
       <title>TCT-114 Impact of Left Ventricular Function on Outcomes of Transcatheter Aortic Valve Replacement and Medical Therapy in Inoperable Patients with Aortic Stenosis: Insights from the Placement of Aortic Transcatheter Valves (PARTNER) Trial (Cohort B)</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/elmariah-2013-tct/</link>
+      <link>https://compuncertlab.org/papers/cardioology/elmariah-2013-tct/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/elmariah-2013-tct/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/elmariah-2013-tct/</guid>
       <description></description>
     </item>
     <item>
       <title>TCT-19 The Impact of Coronary Lesion Severity on Drug-eluting Stent Outcomes in Patients with and without Diabetes Mellitus</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kedhi-2013-tct/</link>
+      <link>https://compuncertlab.org/papers/cardioology/kedhi-2013-tct/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kedhi-2013-tct/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/kedhi-2013-tct/</guid>
       <description></description>
     </item>
     <item>
       <title>TCT-236 Clinical Profile And Impact Of A Family History Of Premature Coronary Artery Disease On Long-term Clinical Ischemic Events In Patients Undergoing PCI For STEMI: Analysis From The HORIZONS-AMI Trial. Revascularization And Stents In Acute Myocardial Infarction) Trial.</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/ertelt-2013-tct/</link>
+      <link>https://compuncertlab.org/papers/cardioology/ertelt-2013-tct/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/ertelt-2013-tct/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/ertelt-2013-tct/</guid>
       <description></description>
     </item>
     <item>
       <title>TCT-261 Safety and efficacy of Bivalirudin monotherapy in patients with non-ST segment elevation myocardial infarction undergoing PCI: Results from the ACUITY Study</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/souza-2013-tct/</link>
+      <link>https://compuncertlab.org/papers/cardioology/souza-2013-tct/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/souza-2013-tct/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/souza-2013-tct/</guid>
       <description></description>
     </item>
     <item>
       <title>TCT-292 reduced bleeding complications and increased event-free survival with femoral vascular closure device use and bivalirudin in stemi patients undergoing primary angioplasty in the horizons-ami trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/sanborn-2013-tct/</link>
+      <link>https://compuncertlab.org/papers/cardioology/sanborn-2013-tct/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/sanborn-2013-tct/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/sanborn-2013-tct/</guid>
       <description></description>
     </item>
     <item>
       <title>TCT-294 Transradial versus Transfemoral Method of Two-Stent Implantation for True Bifurcation Lesions: Comparison of Immediate and Long-Term Outcomes</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/gao-2013-tct/</link>
+      <link>https://compuncertlab.org/papers/cardioology/gao-2013-tct/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/gao-2013-tct/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/gao-2013-tct/</guid>
       <description></description>
     </item>
     <item>
       <title>TCT-617 Impact Of Gender In The Relationship Between Intravascular Ultrasound And Fractional Flow Reserve</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/omar-2013-tct/</link>
+      <link>https://compuncertlab.org/papers/cardioology/omar-2013-tct/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/omar-2013-tct/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/omar-2013-tct/</guid>
       <description></description>
     </item>
     <item>
       <title>TCT-754 Clinical and Left Ventricular Functional Outcomes Associated with Cardiac Biomarker Elevation after Transapical TAVR: A Sub-analysis from the PARTNER Trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/paradis-2013-tct/</link>
+      <link>https://compuncertlab.org/papers/cardioology/paradis-2013-tct/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/paradis-2013-tct/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/paradis-2013-tct/</guid>
       <description></description>
     </item>
     <item>
       <title>TCT-773 The Prognostic Significance of Changes in B-type Naturetic Peptide (BNP) after Transcatheter Aortic Valve Replacement (TAVR): THE PARTNER I EXPERIENCE</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/guerrero-2013-tct/</link>
+      <link>https://compuncertlab.org/papers/cardioology/guerrero-2013-tct/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/guerrero-2013-tct/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/guerrero-2013-tct/</guid>
       <description></description>
     </item>
     <item>
       <title>The clinical relevance of rising CA-125 levels within the normal range in patients with uterine papillary serous cancer</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/frimer-2013-clinical/</link>
+      <link>https://compuncertlab.org/papers/obstetrics/frimer-2013-clinical/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/frimer-2013-clinical/</guid>
+      <guid>https://compuncertlab.org/papers/obstetrics/frimer-2013-clinical/</guid>
       <description></description>
     </item>
     <item>
       <title>The Impact of six-minute walk test performance on outcomes after transcatheter aortic valve replacement: insights from the PARTNER trial</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/green-2013-impact/</link>
+      <link>https://compuncertlab.org/papers/cardioology/green-2013-impact/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/green-2013-impact/</guid>
+      <guid>https://compuncertlab.org/papers/cardioology/green-2013-impact/</guid>
       <description></description>
     </item>
     <item>
       <title>Altered biomarkers of mucosal immunity and reduced vaginal Lactobacillus concentrations in sexually active female adolescents</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/madan-2012-altered/</link>
+      <link>https://compuncertlab.org/papers/obstetrics/madan-2012-altered/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/madan-2012-altered/</guid>
+      <guid>https://compuncertlab.org/papers/obstetrics/madan-2012-altered/</guid>
       <description></description>
     </item>
     <item>
       <title>Association of bactericidal activity of genital tract secretions with Escherichia coli colonization in pregnancy</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/ghartey-2012-association/</link>
+      <link>https://compuncertlab.org/papers/obstetrics/ghartey-2012-association/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/ghartey-2012-association/</guid>
+      <guid>https://compuncertlab.org/papers/obstetrics/ghartey-2012-association/</guid>
       <description></description>
     </item>
     <item>
       <title>Cervical intraepithelial neoplasia is associated with genital tract mucosal inflammation</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/mhatre-2012-cervical/</link>
+      <link>https://compuncertlab.org/papers/obstetrics/mhatre-2012-cervical/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/mhatre-2012-cervical/</guid>
+      <guid>https://compuncertlab.org/papers/obstetrics/mhatre-2012-cervical/</guid>
       <description></description>
     </item>
     <item>
       <title>High prevalence of high grade anal intraepithelial neoplasia in HIV-infected women screened for anal cancer</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/hou-2012-high/</link>
+      <link>https://compuncertlab.org/papers/obstetrics/hou-2012-high/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/hou-2012-high/</guid>
+      <guid>https://compuncertlab.org/papers/obstetrics/hou-2012-high/</guid>
       <description></description>
     </item>
     <item>
       <title>P16. 03: 3-dimensional power Doppler (3DPD) &#34;biopsy&#34; of the Utero-Placental Circulation Space (UPCS)</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/gebb-2012-p-16/</link>
+      <link>https://compuncertlab.org/papers/obstetrics/gebb-2012-p-16/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/gebb-2012-p-16/</guid>
+      <guid>https://compuncertlab.org/papers/obstetrics/gebb-2012-p-16/</guid>
       <description></description>
     </item>
     <item>
       <title>Quality assurance initiative to improve the performance of cytology and HPV testing for predicting clinically relevant disease in peri-and postmenopausal women with ASCUS</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/callery-2012-quality/</link>
+      <link>https://compuncertlab.org/papers/obstetrics/callery-2012-quality/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/callery-2012-quality/</guid>
+      <guid>https://compuncertlab.org/papers/obstetrics/callery-2012-quality/</guid>
       <description></description>
     </item>
     <item>
       <title>The cervical microbiome over 7 years and a comparison of methodologies for its characterization</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/smith-2012-cervical/</link>
+      <link>https://compuncertlab.org/papers/obstetrics/smith-2012-cervical/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/smith-2012-cervical/</guid>
+      <guid>https://compuncertlab.org/papers/obstetrics/smith-2012-cervical/</guid>
       <description></description>
     </item>
     <item>
       <title>A phase II study of the PARP inhibitor ABT-888 plus temozolomide in patients with heavily pretreated, metastatic colorectal cancer.</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/pishvaian-2011-phase/</link>
+      <link>https://compuncertlab.org/papers/pishvaian-2011-phase/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/pishvaian-2011-phase/</guid>
+      <guid>https://compuncertlab.org/papers/pishvaian-2011-phase/</guid>
       <description></description>
     </item>
     <item>
-      <title>Lectures at the Villa of Reduced Circumstances</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/courses/course1/</link>
+      <title>Alumni</title>
+      <link>https://compuncertlab.org/members/past_members/</link>
       <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/courses/course1/</guid>
-      <description>This graduate course presents classical results in Romance philology.</description>
+      <guid>https://compuncertlab.org/members/past_members/</guid>
+      <description>Alumni and past lab members</description>
     </item>
     <item>
-      <title>tom mcandrew (pi)</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/members/mcandrew/</link>
+      <title>Apprentice Teaching</title>
+      <link>https://compuncertlab.org/lab_docs/at/</link>
       <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/members/mcandrew/</guid>
-      <description>Background on mcandrew</description>
+      <guid>https://compuncertlab.org/lab_docs/at/</guid>
+      <description>Apprentice Teaching</description>
     </item>
     <item>
-      <title>Portugese Irregular Verbs</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/books/book1/</link>
-      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/books/book1/</guid>
-      <description>This book discusses Portugese irregular verbs in great details.</description>
+      <title>Compartmental models exercise</title>
+      <link>https://compuncertlab.org/apps/compartmental_models/</link>
+      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/apps/compartmental_models/</guid>
+      <description>SIR,SEIR,SE2IR</description>
     </item>
     <item>
-      <title>Profanity in Early Irish</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/courses/course2/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/courses/course2/</guid>
-      <description>This undergraduate course discusses profanity in Early Irish.</description>
+      <title>Lab manual</title>
+      <link>https://compuncertlab.org/lab_docs/lab_book/</link>
+      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/lab_docs/lab_book/</guid>
+      <description>Lab manual</description>
+    </item>
+    <item>
+      <title>Watermelon Meow Meow 2</title>
+      <link>https://compuncertlab.org/apps/wmm2/</link>
+      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/apps/wmm2/</guid>
+      <description>Watermelon Meow Meow Outbreak</description>
     </item>
   </channel>
 </rss>

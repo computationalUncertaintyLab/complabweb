@@ -1,0 +1,338 @@
+/* Members directory — clean grid, filters, light motion */
+
+.members-intro {
+  margin-bottom: calc(var(--gap) * 1.25);
+}
+
+.members-directory {
+  margin-bottom: calc(var(--gap) * 2);
+}
+
+.members-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: calc(var(--gap) * 1.5);
+  padding: 0.85rem 0 1rem;
+  background: color-mix(in srgb, var(--atmosphere-base) 88%, transparent);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--border);
+}
+
+.members-search-label {
+  display: block;
+  width: 100%;
+}
+
+.members-search {
+  width: 100%;
+  padding: 0.7rem 0.95rem;
+  font-size: 0.95rem;
+  color: var(--primary);
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.members-search:focus {
+  border-color: var(--darkcolor);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--darkcolor) 25%, transparent);
+}
+
+.members-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.members-chip {
+  appearance: none;
+  margin: 0;
+  padding: 0.35rem 0.75rem;
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--secondary);
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+
+.members-chip:hover {
+  border-color: var(--darkcolor);
+  color: var(--primary);
+}
+
+.members-chip.is-active {
+  color: var(--theme);
+  background: var(--darkcolor);
+  border-color: var(--darkcolor);
+}
+
+.members-section {
+  margin-bottom: calc(var(--gap) * 1.75);
+}
+
+.members-section.is-hidden,
+.member-card.is-hidden {
+  display: none;
+}
+
+.members-section-title {
+  margin: 0 0 1rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--primary);
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .members-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .members-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.member-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 1rem;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    border-color 0.2s ease,
+    transform 0.25s ease,
+    opacity 0.35s ease,
+    box-shadow 0.2s ease;
+}
+
+.member-card.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.member-card:hover {
+  border-color: var(--darkcolor);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--darkcolor) 12%, transparent);
+}
+
+.member-card-media {
+  display: block;
+  align-self: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--code-bg);
+  flex-shrink: 0;
+}
+
+.member-card-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.member-card-photo--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--secondary);
+  background: var(--code-bg);
+}
+
+.member-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 0;
+  text-align: center;
+}
+
+.member-card-name {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.member-card-name a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.member-card-name a:hover {
+  color: var(--darkcolor);
+}
+
+.member-card-role {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--darkcolor);
+}
+
+.member-card-summary {
+  margin: 0.15rem 0 0;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--secondary);
+}
+
+.member-card-toggle {
+  appearance: none;
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.45rem;
+  padding: 0.25rem 0.5rem;
+  font: inherit;
+  font-size: 0.8rem;
+  color: var(--secondary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.member-card-toggle:hover {
+  color: var(--darkcolor);
+}
+
+.member-card-chevron {
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.member-card-toggle[aria-expanded="true"] .member-card-chevron {
+  transform: rotate(-135deg);
+  translate: 0 2px;
+}
+
+.member-card-expand {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: max-height 0.28s ease, opacity 0.22s ease, margin 0.22s ease;
+  margin-top: 0;
+}
+
+.member-card-expand.is-open {
+  max-height: 8rem;
+  opacity: 1;
+  pointer-events: auto;
+  margin-top: 0.35rem;
+}
+
+.member-card[data-expand="false"] .member-card-toggle,
+.member-card[data-expand="false"] .member-card-expand {
+  display: none;
+}
+
+.member-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.55rem 0.85rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.85rem;
+}
+
+.member-card-links a {
+  color: var(--darkcolor);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.member-card-links a:hover {
+  border-bottom-color: var(--darkcolor);
+}
+
+.members-empty {
+  margin: 1.5rem 0;
+  text-align: center;
+  color: var(--secondary);
+}
+
+.members-alumni-link {
+  margin-top: calc(var(--gap) * 1.5);
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+
+.members-alumni-link a {
+  color: var(--darkcolor);
+  text-decoration: none;
+}
+
+.members-alumni-link a:hover {
+  text-decoration: underline;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .member-card,
+  .member-card:hover,
+  .member-card-expand,
+  .member-card-chevron,
+  .members-search,
+  .members-chip {
+    transition: none;
+  }
+
+  .member-card {
+    opacity: 1;
+    transform: none;
+  }
+
+  .member-card:hover {
+    transform: none;
+  }
+}

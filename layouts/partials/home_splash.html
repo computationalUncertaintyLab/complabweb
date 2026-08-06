@@ -1,0 +1,63 @@
+{{- /* Home splash: logo-centered hero + scrollable Vision/Mission */ -}}
+{{- $tagline := .Params.tagline | default "We improve health and well-being through the study and application of computational models." -}}
+{{- $logo := "compuncertlab-icon-640.png" -}}
+{{- $buttons := site.Params.profileMode.buttons -}}
+
+<section class="home-splash" aria-label="Lab home">
+  <div class="home-splash-atmosphere" aria-hidden="true"></div>
+  <div class="home-splash-inner">
+    <div class="home-splash-mark" id="home-splash-mark">
+      <div class="home-splash-logo-frame">
+        <img
+          class="home-splash-logo"
+          src="{{ $logo | relURL }}"
+          alt=""
+          width="220"
+          height="253"
+          draggable="false"
+        >
+      </div>
+      <div class="home-splash-bubbles" aria-hidden="true">
+        <span class="home-splash-bubble" style="--i:0">π</span>
+        <span class="home-splash-bubble" style="--i:1">?</span>
+        <span class="home-splash-bubble" style="--i:2">Σ</span>
+        <span class="home-splash-bubble" style="--i:3">π</span>
+        <span class="home-splash-bubble" style="--i:4">λ</span>
+        <span class="home-splash-bubble" style="--i:5">?</span>
+      </div>
+    </div>
+    <h1 class="home-splash-title">{{ site.Title }}</h1>
+    <p class="home-splash-tagline">{{ $tagline }}</p>
+
+    {{- with $buttons }}
+    <nav class="home-splash-ctas" aria-label="Lab sections">
+      {{- range . }}
+      <a class="home-splash-cta" href="{{ trim .url " " | relURL }}">{{ .name }}</a>
+      {{- end }}
+      <a class="home-splash-cta home-splash-cta--accent" href="#vision-mission">Vision, Mission, and Investors</a>
+    </nav>
+    {{- end }}
+
+    <a class="home-splash-scroll" href="#vision-mission" aria-label="Scroll to Vision, Mission, and Investors">
+      <span class="home-splash-scroll-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+</section>
+
+<section class="home-vision" id="vision-mission" aria-labelledby="vision-mission-heading">
+  <div class="home-vision-inner">
+    <h2 id="vision-mission-heading" class="visually-hidden">Vision, Mission, and Investors</h2>
+    <div class="post-content home-vision-content">
+      {{- with .Content }}
+        {{ . }}
+      {{- else }}
+        <h2>Vision</h2>
+        <p>XXX</p>
+        <h2>Mission</h2>
+        <p>YYY</p>
+        <h2>Investors</h2>
+        <p>ZZZ</p>
+      {{- end }}
+    </div>
+  </div>
+</section>

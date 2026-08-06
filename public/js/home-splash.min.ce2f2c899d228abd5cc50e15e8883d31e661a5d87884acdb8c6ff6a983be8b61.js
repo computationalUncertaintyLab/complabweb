@@ -1,0 +1,1 @@
+(function(){const e=document.getElementById("home-splash-mark");if(!e)return;const t="culab-splash-bubbles-played",n=window.matchMedia("(prefers-reduced-motion: reduce)").matches;if(n)return;try{if(window.sessionStorage.getItem(t)==="1")return}catch{}window.requestAnimationFrame(function(){e.classList.add("is-bubbling");try{window.sessionStorage.setItem(t,"1")}catch{}})})()

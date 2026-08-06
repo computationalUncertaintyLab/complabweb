@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Outbreak on Computational Uncertainty Lab</title>
+    <link>https://compuncertlab.org/tags/outbreak/</link>
+    <description>Recent content in Outbreak on Computational Uncertainty Lab</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/outbreak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Watermelon Meow Meow Outbreak: Enhancing Public Health Education Through Real-World Experience, Statistical Programming, and Infectious Disease Modeling</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2024-watermelon/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2024-watermelon/</guid>
+      <description>The Watermelon Meow Meow (WMM) outbreak is a cumulative experience that teaches upper-level undergraduate/graduate students about infectious disease dynamics by asking students to: participate in a fictitious outbreak</description>
+    </item>
+  </channel>
+</rss>

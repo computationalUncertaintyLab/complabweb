@@ -2,6 +2,7 @@
 title: "Lela Boermeester"
 date: 2024-09-08
 lastmod: 2024-09-08
+role: "undergraduate"
 tags: ["math","stats","infectious diseases"]
 author: "Lela Boermeester"
 description: "Background on Lela Boermeester" 

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Networks on Computational Uncertainty Lab</title>
-    <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/networks/</link>
+    <link>https://compuncertlab.org/tags/networks/</link>
     <description>Recent content in Networks on Computational Uncertainty Lab</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 29 Apr 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50252/computationalUncertaintyLab/complabweb/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://compuncertlab.org/tags/networks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Robustness of spatial micronetworks</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2015-robustness/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2015-robustness/</link>
       <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2015-robustness/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2015-robustness/</guid>
       <description>Accounting for spatial effects in both construction and robustness is important for designing efficient microgrids and other network infrastructure.</description>
     </item>
   </channel>

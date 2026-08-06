@@ -1,53 +1,102 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Papers on Computational Uncertainty Lab</title>
-    <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/</link>
-    <description>Recent content in Papers on Computational Uncertainty Lab</description>
+    <title>Research Products on Computational Uncertainty Lab</title>
+    <link>https://compuncertlab.org/papers/</link>
+    <description>Recent content in Research Products on Computational Uncertainty Lab</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50252/computationalUncertaintyLab/complabweb/papers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enhancing local public health decision-making: Incorporating end-user perspectives into influenza forecasting models</title>
+      <link>https://compuncertlab.org/papers/frounfelker-2025-local_pub/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/frounfelker-2025-local_pub/</guid>
+      <description>The goals of this study are to: 1) understand the seasonal flu intervention decision-making process from the perspective of local public health officials and health care providers; and 2) identify these stakeholders’ data needs and priorities for flu forecasting models.</description>
+    </item>
+    <item>
+      <title>Impact of Dobbs v. Jackson on Abortion Access in Colorado: An Analysis of Incidence and Demographic Shifts Post-Roe.</title>
+      <link>https://compuncertlab.org/papers/bryer-2025-dobbs/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/bryer-2025-dobbs/</guid>
+      <description>Objectives: To estimate the impact in the number of incident abortions due to the Dobbs v Jackson decision.</description>
+    </item>
+    <item>
+      <title>When Data Disappear:  Public Health Pays As Policy Strays</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2025-data_disappear/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2025-data_disappear/</guid>
+      <description>Illustrating the importance of public health data</description>
+    </item>
+    <item>
+      <title>Chimeric Forecasting: An experiment to leverage human judgment to improve forecasts of infectious disease using simulated surveillance data</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2024-chimeric/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2024-chimeric/</guid>
+      <description>We presented 3000 humans with simulated surveillance data about the number of incident hospitalizations from a current and two past seasons, and asked that they predict the peak time and intensity of the underlying epidemic</description>
+    </item>
+    <item>
+      <title>Assessing Human Judgment Forecasts in the Rapid Spread of the Mpox Outbreak: Insights and Challenges for Pandemic Preparedness</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2024-assessing/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2024-assessing/</guid>
+      <description>We collected -- between May 19, 2022 and July 31, 2022 -- 1275 forecasts from 442 individuals of six questions about the mpox outbreak where ground truth data are now available. Individual human judgment forecasts and an equally weighted ensemble were evaluated, as well as compared to a random walk, autoregressive, and doubling time model.</description>
+    </item>
+    <item>
+      <title>The Watermelon Meow Meow Outbreak: Enhancing Public Health Education Through Real-World Experience, Statistical Programming, and Infectious Disease Modeling</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2024-watermelon/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2024-watermelon/</guid>
+      <description>The Watermelon Meow Meow (WMM) outbreak is a cumulative experience that teaches upper-level undergraduate/graduate students about infectious disease dynamics by asking students to: participate in a fictitious outbreak</description>
+    </item>
+    <item>
+      <title>A Cluster-Aggregate-Pool (CAP) Ensemble Algorithm for Improved Forecast Performance of influenza-like illness</title>
+      <link>https://compuncertlab.org/papers/wei-2023-cap/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/wei-2023-cap/</guid>
+      <description>We propose a novel Cluster-Aggregate-Pool or `CAP&amp;#39; ensemble algorithm that first clusters together individual forecasts, aggregates individual models that belong to the same cluster into a single forecast (called a cluster forecast), and then pools together cluster forecasts via a linear pool.</description>
+    </item>
     <item>
       <title>Early human judgment forecasts of human monkeypox, May 2022</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2022-mpoxhj/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2022-mpoxhj/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2022-mpoxhj/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2022-mpoxhj/</guid>
       <description>These results suggest that a human judgment forecasting platform can quickly generate probabilistic predictions for targets of public health importance</description>
     </item>
     <item>
       <title>Aggregating Human Judgment Probabilistic Predictions of Coronavirus Disease 2019 Transmission, Burden, and Preventive Measures</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/codi-2022-aggcovid19/</link>
+      <link>https://compuncertlab.org/papers/codi-2022-aggcovid19/</link>
       <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/codi-2022-aggcovid19/</guid>
+      <guid>https://compuncertlab.org/papers/codi-2022-aggcovid19/</guid>
       <description>Our work shows that aggregated human judgment forecasts for infectious agents are timely, accurate, and adaptable, and can be used as a tool to aid public health decision making during outbreaks.</description>
     </item>
     <item>
       <title>Aggregating probabilistic predictions of the safety, efficacy, and timing of a COVID-19 vaccine</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2021-vaccine/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2021-vaccine/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2021-vaccine/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2021-vaccine/</guid>
       <description>To support public health decision making, we solicited trained forecasters and experts in vaccinology and infectious disease to provide monthly probabilistic predictions from July to September of 2020 of the efficacy, safety, timing, and delivery of a COVID-19 vaccine.</description>
     </item>
     <item>
       <title>Adaptively stacking ensembles for influenza forecasting with incomplete data</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-adaptive/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2020-adaptive/</link>
       <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-adaptive/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2020-adaptive/</guid>
       <description>Needing no data at the beginning of an epidemic, an adaptive ensemble can quickly train and forecast an outbreak, providing a practical tool to public health officials looking for a forecast to conform to unique features of a specific season.</description>
     </item>
     <item>
       <title>An expert judgment model to predict early stages of the COVID-19 outbreak in the United States</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-expertjudgmentcovid/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2020-expertjudgmentcovid/</link>
       <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-expertjudgmentcovid/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2020-expertjudgmentcovid/</guid>
       <description>This work highlights the importance that an expert linear pool could play in flexibly assessing a wide array of risks early in future emerging outbreaks, especially in settings where available data cannot yet support data-driven computational modeling.</description>
     </item>
     <item>
       <title>Aggregating predictions from experts: a scoping review of statistical methods, experiments, and applications</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-scopingreview/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2019-scopingreview/</link>
       <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-scopingreview/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2019-scopingreview/</guid>
       <description>&lt;hr&gt;
 &lt;h5 id=&#34;download&#34;&gt;Download&lt;/h5&gt;
 &lt;ul&gt;
@@ -60,51 +109,44 @@
     </item>
     <item>
       <title>An expert judgment model to predict early stages of the COVID-19 outbreak in the United States</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-cox/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2019-cox/</link>
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-cox/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2019-cox/</guid>
       <description>Compared to fixed effect models, random effects suffer lower bias and trade inflated type I errors for improved power. Contrasting hazard rates between trials prevent accurate estimates from both fixed and random effects models.</description>
     </item>
     <item>
       <title>Crossing points in survival analysis sensitively depend on system conditions</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2018-crossing/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2018-crossing/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2018-crossing/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2018-crossing/</guid>
       <description>&lt;p&gt;Crossing survival curves complicate how we interpret results from a clinical trial&amp;rsquo;s primary endpoint. We find the function to determine a crossing point&amp;rsquo;s location depends exponentially on individual survival curves. This exponential relationship between survival curves and the crossing point transforms small survival curve errors into large crossing point errors. In most cases, crossing points are sensitive to individual survival errors and may make accurately locating a crossing point unsuccessful. We argue more complicated analyses for mitigating crossing points should be reserved only after first exploring a crossing point&amp;rsquo;s variability, or hypothesis tests account for crossing point variability.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reply &amp; Supply: Efficient crowdsourcing when workers do more than answer questions</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2017-reply/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2017-reply/</link>
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2017-reply/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2017-reply/</guid>
       <description>By modeling question sets as networks of interrelated questions, we introduce algorithms to help curtail the growth bias by efficiently distributing workers between exploring new questions and addressing current questions.</description>
     </item>
     <item>
       <title>What we write about when we write about causality: Features of causal statements across large-scale social discourse</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2016-we/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2016-we/</link>
       <pubDate>Thu, 18 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2016-we/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2016-we/</guid>
       <description>We find that causal statements have a number of significant lexical and grammatical differences compared to non-causal language</description>
     </item>
     <item>
       <title>Robustness of spatial micronetworks</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2015-robustness/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2015-robustness/</link>
       <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2015-robustness/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2015-robustness/</guid>
       <description>Accounting for spatial effects in both construction and robustness is important for designing efficient microgrids and other network infrastructure.</description>
     </item>
     <item>
-      <title>Unusual Uses For Olive Oil</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/paper1/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/paper1/</guid>
-      <description>This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.</description>
-    </item>
-    <item>
       <title>A phase II study of the PARP inhibitor ABT-888 plus temozolomide in patients with heavily pretreated, metastatic colorectal cancer.</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/pishvaian-2011-phase/</link>
+      <link>https://compuncertlab.org/papers/pishvaian-2011-phase/</link>
       <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/pishvaian-2011-phase/</guid>
+      <guid>https://compuncertlab.org/papers/pishvaian-2011-phase/</guid>
       <description></description>
     </item>
   </channel>

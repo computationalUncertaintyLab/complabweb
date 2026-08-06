@@ -2,18 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Math on Computational Uncertainty Lab</title>
-    <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/math/</link>
+    <link>https://compuncertlab.org/tags/math/</link>
     <description>Recent content in Math on Computational Uncertainty Lab</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50252/computationalUncertaintyLab/complabweb/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>tom mcandrew (pi)</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/members/mcandrew/</link>
-      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/members/mcandrew/</guid>
+      <title>Cheyenne Desmond</title>
+      <link>https://compuncertlab.org/members/desmond_cheyenne/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/desmond_cheyenne/</guid>
+      <description>Background on Cheyenne Desmond</description>
+    </item>
+    <item>
+      <title>tom mcandrew</title>
+      <link>https://compuncertlab.org/members/mcandrew/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/mcandrew/</guid>
       <description>Background on mcandrew</description>
+    </item>
+    <item>
+      <title>Influenza Dashboard</title>
+      <link>https://compuncertlab.org/apps/flu_dash/</link>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/apps/flu_dash/</guid>
+      <description>Infleunza dashbaord at state level, showing ILI&#43; and hospitalization rates</description>
+    </item>
+    <item>
+      <title>Zach Thomas</title>
+      <link>https://compuncertlab.org/members/thomas_zach/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/thomas_zach/</guid>
+      <description>Background on Zach Thomas</description>
+    </item>
+    <item>
+      <title>Lela Boermeester</title>
+      <link>https://compuncertlab.org/members/boermeester_lela/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/boermeester_lela/</guid>
+      <description>Background on Lela Boermeester</description>
+    </item>
+    <item>
+      <title>Aaron Colon</title>
+      <link>https://compuncertlab.org/members/colon_aaron/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/colon_aaron/</guid>
+      <description>Background on Aaron Colon</description>
+    </item>
+    <item>
+      <title>Alumni</title>
+      <link>https://compuncertlab.org/members/past_members/</link>
+      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/past_members/</guid>
+      <description>Alumni and past lab members</description>
+    </item>
+    <item>
+      <title>Compartmental models exercise</title>
+      <link>https://compuncertlab.org/apps/compartmental_models/</link>
+      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/apps/compartmental_models/</guid>
+      <description>SIR,SEIR,SE2IR</description>
+    </item>
+    <item>
+      <title>Watermelon Meow Meow 2</title>
+      <link>https://compuncertlab.org/apps/wmm2/</link>
+      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/apps/wmm2/</guid>
+      <description>Watermelon Meow Meow Outbreak</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,46 @@
+{{- $p := . }}
+
+{{- $summary := $p.Summary | plainify | htmlUnescape }}
+{{- $tags := "" }}
+{{- with $p.Params.tags }}
+  {{- $tags = delimit . " " }}
+{{- end }}
+
+{{- $imgURL := "" }}
+{{- with $p.Params.cover.image }}
+  {{- $cover := ($p.Resources.ByType "image").GetMatch (printf "*%s*" .) }}
+  {{- if $cover }}
+    {{- $imgURL = $cover.RelPermalink }}
+  {{- end }}
+{{- end }}
+
+<article
+  class="course-card"
+  data-name="{{ $p.Title | plainify | lower }}"
+  data-summary="{{ $summary | lower }}"
+  data-tags="{{ $tags | lower }}"
+>
+  <a class="course-card-media" href="{{ $p.RelPermalink }}" aria-label="Open {{ $p.Title | plainify }}">
+    {{- if $imgURL }}
+    <img class="course-card-cover" src="{{ $imgURL }}" alt="" loading="lazy">
+    {{- else }}
+    <span class="course-card-cover course-card-cover--placeholder" aria-hidden="true"></span>
+    {{- end }}
+  </a>
+
+  <div class="course-card-body">
+    <h2 class="course-card-title">
+      <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+    </h2>
+    {{- if $summary }}
+    <p class="course-card-summary">{{ $summary }}</p>
+    {{- end }}
+    {{- with $p.Params.tags }}
+    <ul class="course-card-tags">
+      {{- range first 4 . }}
+      <li>{{ . }}</li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </div>
+</article>

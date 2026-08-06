@@ -2,462 +2,566 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/</loc>
+    <loc>https://compuncertlab.org/members/subedi_anurag/</loc>
+    <lastmod>2026-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/</loc>
+    <lastmod>2026-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/members/brosky_hanna/</loc>
+    <lastmod>2026-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/members/afrin_nazia/</loc>
+    <lastmod>2026-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/</loc>
+    <lastmod>2026-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/xxx/</loc>
+    <lastmod>2026-08-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/courses/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/time-series-forecasting/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/courses/amph2025/</loc>
+    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/data-science/</loc>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/members/stepanyan_elmira/</loc>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/infectious-diseases/</loc>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/algorithms/</loc>
+    <lastmod>2025-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/courses/id_health_comm/</loc>
+    <lastmod>2025-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/probability/</loc>
+    <lastmod>2025-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/python/</loc>
+    <lastmod>2025-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/univariate-statistics/</loc>
+    <lastmod>2025-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/decision-making/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/papers/frounfelker-2025-local_pub/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/influenza/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/papers/</loc>
+    <lastmod>2025-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/members/desmond_cheyenne/</loc>
+    <lastmod>2025-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/forecasting/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/human-judgment/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/math/</loc>
+    <lastmod>2025-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/stats/</loc>
+    <lastmod>2025-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/members/mcandrew/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/abortion-access/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/epidemiology/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/papers/bryer-2025-dobbs/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/maternal-health/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/policy/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/papers/mcandrew-2025-data_disappear/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/apps/</loc>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/apps/flu_dash/</loc>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/members/thomas_zach/</loc>
+    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/dynamics/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/epidemic-modeling/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/mechanistic-models/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/courses/outbreak2/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/sir/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/courses/data_exploration_in_python/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/books/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/mechanisitc-models/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/books/book1/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/courses/course1/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/reed-frost/</loc>
+    <lastmod>2024-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/members/boermeester_lela/</loc>
     <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/location/</loc>
+    <loc>https://compuncertlab.org/papers/mcandrew-2024-chimeric/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/members/colon_aaron/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/location/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/officehours/</loc>
+    <loc>https://compuncertlab.org/officehours/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2022-mpoxhj/</loc>
+    <loc>https://compuncertlab.org/papers/mcandrew-2024-assessing/</loc>
+    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/mpox/</loc>
+    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/outbreak/</loc>
+    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/pedagogy/</loc>
+    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/papers/mcandrew-2024-watermelon/</loc>
+    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/members/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/papers/wei-2023-cap/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/ensemble/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/modeling/</loc>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/courses/phds2/</loc>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/regression/</loc>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/statistcial-inference/</loc>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/courses/phds1/</loc>
+    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/tags/sets/</loc>
+    <lastmod>2022-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://compuncertlab.org/papers/mcandrew-2022-mpoxhj/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/forecasting/</loc>
-    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/human-judgment/</loc>
-    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/mpox/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/</loc>
-    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/codi-2022-aggcovid19/</loc>
+    <loc>https://compuncertlab.org/papers/codi-2022-aggcovid19/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/covid19/</loc>
+    <loc>https://compuncertlab.org/tags/covid19/</loc>
     <lastmod>2022-07-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2021-vaccine/</loc>
+    <loc>https://compuncertlab.org/papers/mcandrew-2021-vaccine/</loc>
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/vaccine/</loc>
+    <loc>https://compuncertlab.org/tags/vaccine/</loc>
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-adaptive/</loc>
+    <loc>https://compuncertlab.org/papers/mcandrew-2020-adaptive/</loc>
     <lastmod>2021-10-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/ensemble/</loc>
-    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/influenza/</loc>
-    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-expertjudgmentcovid/</loc>
+    <loc>https://compuncertlab.org/papers/mcandrew-2020-expertjudgmentcovid/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/covid-19/</loc>
+    <loc>https://compuncertlab.org/tags/covid-19/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/expert-judgment/</loc>
+    <loc>https://compuncertlab.org/tags/expert-judgment/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-scopingreview/</loc>
+    <loc>https://compuncertlab.org/papers/mcandrew-2019-scopingreview/</loc>
     <lastmod>2020-06-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-cox/</loc>
+    <loc>https://compuncertlab.org/papers/mcandrew-2019-cox/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/time-to-event/</loc>
+    <loc>https://compuncertlab.org/tags/time-to-event/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/fearon-2019-accuracy/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/fearon-2019-accuracy/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/finn-2019-adverse/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/finn-2019-adverse/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/peri-2019-association/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/peri-2019-association/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/bikdeli-2019-development/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/bikdeli-2019-development/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kobayashi-2019-diagnostic/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/kobayashi-2019-diagnostic/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/furer-2019-effect/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/furer-2019-effect/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/ben-2019-impact/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/ben-2019-impact/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/rinaldi-2019-impact/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/rinaldi-2019-impact/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/farhan-2019-impact/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/farhan-2019-impact/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/arnold-2019-impact/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/arnold-2019-impact/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/gertz-2019-implications/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/gertz-2019-implications/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/cheng-2019-vitro/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/cheng-2019-vitro/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/konigstein-2019-incidence/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/konigstein-2019-incidence/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/doucet-2019-outcomes/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/doucet-2019-outcomes/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/huang-2019-predictors/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/huang-2019-predictors/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2018-bleeding/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/redfors-2018-bleeding/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2018-crossing/</loc>
+    <loc>https://compuncertlab.org/papers/mcandrew-2018-crossing/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/zeng-2018-efficacy/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/zeng-2018-efficacy/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/beohar-2018-impact/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/beohar-2018-impact/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/konigstein-2018-incidence/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/konigstein-2018-incidence/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/giustino-2018-left/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/giustino-2018-left/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2018-new/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/kosmidou-2018-new/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/serruys-2018-outcomes/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/serruys-2018-outcomes/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/malaisrie-2018-outcomes/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/malaisrie-2018-outcomes/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2018-percutaneous/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/redfors-2018-percutaneous/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/giustino-2018-platelet/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/giustino-2018-platelet/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/brener-2018-prediction/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/brener-2018-prediction/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/garber-2018-predictors/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/garber-2018-predictors/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/furer-2018-reduced/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/furer-2018-reduced/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/maehara-2018-relationship/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/maehara-2018-relationship/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/devireddy-2018-routine/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/devireddy-2018-routine/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/hahn-2018-effect/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/hahn-2018-effect/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2017-reply/</loc>
+    <loc>https://compuncertlab.org/papers/mcandrew-2017-reply/</loc>
     <lastmod>2017-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/cheng-2017-comparative/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/cheng-2017-comparative/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/ertelt-2017-comparison/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/ertelt-2017-comparison/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2017-correlation/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/kosmidou-2017-correlation/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2017-early/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/kosmidou-2017-early/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/chandrasekhar-2017-effect/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/chandrasekhar-2017-effect/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kedhi-2017-impact/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/kedhi-2017-impact/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2017-incidence/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/kosmidou-2017-incidence/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/finn-2017-platelet/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/finn-2017-platelet/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2017-mortality/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/redfors-2017-mortality/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2017-outcomes/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/redfors-2017-outcomes/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/qaderdan-2017-outcomes/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/qaderdan-2017-outcomes/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2017-percutaneous/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/redfors-2017-percutaneous/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/redfors-2017-platelet/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/redfors-2017-platelet/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/yamamoto-2017-serial/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/yamamoto-2017-serial/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/genereux-2017-staging/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/genereux-2017-staging/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/madhavan-2017-myocardial/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/madhavan-2017-myocardial/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kosmidou-2017-worsening/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/kosmidou-2017-worsening/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/causality/</loc>
+    <loc>https://compuncertlab.org/tags/causality/</loc>
     <lastmod>2016-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/social-media/</loc>
+    <loc>https://compuncertlab.org/tags/social-media/</loc>
     <lastmod>2016-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2016-we/</loc>
+    <loc>https://compuncertlab.org/papers/mcandrew-2016-we/</loc>
     <lastmod>2016-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cyber_physical_systems/</loc>
+    <loc>https://compuncertlab.org/papers/cyber_physical_systems/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cyber_physical_systems/lokhov-2016-detection/</loc>
+    <loc>https://compuncertlab.org/papers/cyber_physical_systems/lokhov-2016-detection/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kedhi-2016-tct/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/kedhi-2016-tct/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/networks/</loc>
+    <loc>https://compuncertlab.org/tags/networks/</loc>
     <lastmod>2015-04-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/power-grid/</loc>
+    <loc>https://compuncertlab.org/tags/power-grid/</loc>
     <lastmod>2015-04-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2015-robustness/</loc>
+    <loc>https://compuncertlab.org/papers/mcandrew-2015-robustness/</loc>
     <lastmod>2015-04-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/frimer-2012-hpv-16/</loc>
+    <loc>https://compuncertlab.org/papers/obstetrics/frimer-2012-hpv-16/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/</loc>
+    <loc>https://compuncertlab.org/papers/obstetrics/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/data/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/dataset/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/french/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/irregular-verbs/</loc>
-    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/italian/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/data/data1/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/philology/</loc>
-    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/portuguese/</loc>
-    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/python/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/romance-languages/</loc>
-    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/simulations/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/spanish/</loc>
-    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/history-of-oil/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/mediterranean-world/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/oleic-science/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/paper1/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/genereux-2013-association/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/genereux-2013-association/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/woods-2013-comparison/</loc>
+    <loc>https://compuncertlab.org/papers/obstetrics/woods-2013-comparison/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/brener-2013-complementary/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/brener-2013-complementary/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/wohrle-2013-impact/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/wohrle-2013-impact/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/genereux-2013-impact/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/genereux-2013-impact/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kodali-2013-impact/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/kodali-2013-impact/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/barbanti-2013-impact/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/barbanti-2013-impact/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/hahn-2013-moderated/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/hahn-2013-moderated/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/pibarot-2013-moderated/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/pibarot-2013-moderated/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/obgyn/</loc>
+    <loc>https://compuncertlab.org/tags/obgyn/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/rosser-2013-obstetricians/</loc>
+    <loc>https://compuncertlab.org/papers/obstetrics/rosser-2013-obstetricians/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/hahn-2013-post/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/hahn-2013-post/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/farooq-2013-prediction/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/farooq-2013-prediction/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/lindman-2013-regression/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/lindman-2013-regression/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/green-2013-relation/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/green-2013-relation/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kodali-2013-sex/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/kodali-2013-sex/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kobayashi-2013-stenting/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/kobayashi-2013-stenting/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/fearon-2013-tct/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/fearon-2013-tct/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/zajarias-2013-tct/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/zajarias-2013-tct/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/elmariah-2013-tct/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/elmariah-2013-tct/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/kedhi-2013-tct/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/kedhi-2013-tct/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/ertelt-2013-tct/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/ertelt-2013-tct/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/souza-2013-tct/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/souza-2013-tct/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/sanborn-2013-tct/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/sanborn-2013-tct/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/gao-2013-tct/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/gao-2013-tct/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/omar-2013-tct/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/omar-2013-tct/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/paradis-2013-tct/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/paradis-2013-tct/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/guerrero-2013-tct/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/guerrero-2013-tct/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/frimer-2013-clinical/</loc>
+    <loc>https://compuncertlab.org/papers/obstetrics/frimer-2013-clinical/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/cardioology/green-2013-impact/</loc>
+    <loc>https://compuncertlab.org/papers/cardioology/green-2013-impact/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/madan-2012-altered/</loc>
+    <loc>https://compuncertlab.org/papers/obstetrics/madan-2012-altered/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/ghartey-2012-association/</loc>
+    <loc>https://compuncertlab.org/papers/obstetrics/ghartey-2012-association/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/mhatre-2012-cervical/</loc>
+    <loc>https://compuncertlab.org/papers/obstetrics/mhatre-2012-cervical/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/hou-2012-high/</loc>
+    <loc>https://compuncertlab.org/papers/obstetrics/hou-2012-high/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/gebb-2012-p-16/</loc>
+    <loc>https://compuncertlab.org/papers/obstetrics/gebb-2012-p-16/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/callery-2012-quality/</loc>
+    <loc>https://compuncertlab.org/papers/obstetrics/callery-2012-quality/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/obstetrics/smith-2012-cervical/</loc>
+    <loc>https://compuncertlab.org/papers/obstetrics/smith-2012-cervical/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/pishvaian-2011-phase/</loc>
+    <loc>https://compuncertlab.org/papers/pishvaian-2011-phase/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/courses/</loc>
+    <loc>https://compuncertlab.org/members/past_members/</loc>
     <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/courses/course1/</loc>
+    <loc>https://compuncertlab.org/tags/apprentice-teaching/</loc>
     <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/math/</loc>
+    <loc>https://compuncertlab.org/lab_docs/at/</loc>
     <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/members/</loc>
+    <loc>https://compuncertlab.org/apps/compartmental_models/</loc>
     <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/stats/</loc>
+    <loc>https://compuncertlab.org/lab_docs/lab_book/</loc>
     <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/members/mcandrew/</loc>
+    <loc>https://compuncertlab.org/tags/lab-manual/</loc>
     <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/books/</loc>
-    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
+    <loc>https://compuncertlab.org/lab_docs/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/portugese/</loc>
-    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
+    <loc>https://compuncertlab.org/apps/wmm2/</loc>
+    <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/books/book1/</loc>
-    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
+    <loc>https://compuncertlab.org/archive/</loc>
   </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/celtic-languages/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/irish/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/language-modernization/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/profanity/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/courses/course2/</loc>
-    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:50252/computationalUncertaintyLab/complabweb/archive/</loc>
+    <loc>https://compuncertlab.org/data/</loc>
   </url>
 </urlset>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Infectious Diseases on Computational Uncertainty Lab</title>
+    <link>https://compuncertlab.org/tags/infectious-diseases/</link>
+    <description>Recent content in Infectious Diseases on Computational Uncertainty Lab</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/infectious-diseases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elmira (Ella) Stepanyan</title>
+      <link>https://compuncertlab.org/members/stepanyan_elmira/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/stepanyan_elmira/</guid>
+      <description>Background on Elmira (Ella) Stepanyan</description>
+    </item>
+    <item>
+      <title>Cheyenne Desmond</title>
+      <link>https://compuncertlab.org/members/desmond_cheyenne/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/desmond_cheyenne/</guid>
+      <description>Background on Cheyenne Desmond</description>
+    </item>
+    <item>
+      <title>Lela Boermeester</title>
+      <link>https://compuncertlab.org/members/boermeester_lela/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/boermeester_lela/</guid>
+      <description>Background on Lela Boermeester</description>
+    </item>
+    <item>
+      <title>Aaron Colon</title>
+      <link>https://compuncertlab.org/members/colon_aaron/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/colon_aaron/</guid>
+      <description>Background on Aaron Colon</description>
+    </item>
+  </channel>
+</rss>

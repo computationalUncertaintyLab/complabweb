@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Time to Event on Computational Uncertainty Lab</title>
-    <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/time-to-event/</link>
+    <link>https://compuncertlab.org/tags/time-to-event/</link>
     <description>Recent content in Time to Event on Computational Uncertainty Lab</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50252/computationalUncertaintyLab/complabweb/tags/time-to-event/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://compuncertlab.org/tags/time-to-event/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An expert judgment model to predict early stages of the COVID-19 outbreak in the United States</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-cox/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2019-cox/</link>
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-cox/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2019-cox/</guid>
       <description>Compared to fixed effect models, random effects suffer lower bias and trade inflated type I errors for improved power. Contrasting hazard rates between trials prevent accurate estimates from both fixed and random effects models.</description>
     </item>
     <item>
       <title>Reply &amp; Supply: Efficient crowdsourcing when workers do more than answer questions</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2017-reply/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2017-reply/</link>
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2017-reply/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2017-reply/</guid>
       <description>By modeling question sets as networks of interrelated questions, we introduce algorithms to help curtail the growth bias by efficiently distributing workers between exploring new questions and addressing current questions.</description>
     </item>
   </channel>

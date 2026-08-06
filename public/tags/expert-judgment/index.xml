@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Expert Judgment on Computational Uncertainty Lab</title>
-    <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/expert-judgment/</link>
+    <link>https://compuncertlab.org/tags/expert-judgment/</link>
     <description>Recent content in Expert Judgment on Computational Uncertainty Lab</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 26 Oct 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50252/computationalUncertaintyLab/complabweb/tags/expert-judgment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://compuncertlab.org/tags/expert-judgment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An expert judgment model to predict early stages of the COVID-19 outbreak in the United States</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-expertjudgmentcovid/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2020-expertjudgmentcovid/</link>
       <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-expertjudgmentcovid/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2020-expertjudgmentcovid/</guid>
       <description>This work highlights the importance that an expert linear pool could play in flexibly assessing a wide array of risks early in future emerging outbreaks, especially in settings where available data cannot yet support data-driven computational modeling.</description>
     </item>
     <item>
       <title>Aggregating predictions from experts: a scoping review of statistical methods, experiments, and applications</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-scopingreview/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2019-scopingreview/</link>
       <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-scopingreview/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2019-scopingreview/</guid>
       <description>&lt;hr&gt;
 &lt;h5 id=&#34;download&#34;&gt;Download&lt;/h5&gt;
 &lt;ul&gt;

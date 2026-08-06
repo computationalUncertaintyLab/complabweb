@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lab_docs on Computational Uncertainty Lab</title>
+    <link>https://compuncertlab.org/lab_docs/</link>
+    <description>Recent content in Lab_docs on Computational Uncertainty Lab</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/lab_docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apprentice Teaching</title>
+      <link>https://compuncertlab.org/lab_docs/at/</link>
+      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/lab_docs/at/</guid>
+      <description>Apprentice Teaching</description>
+    </item>
+    <item>
+      <title>Lab manual</title>
+      <link>https://compuncertlab.org/lab_docs/lab_book/</link>
+      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/lab_docs/lab_book/</guid>
+      <description>Lab manual</description>
+    </item>
+  </channel>
+</rss>

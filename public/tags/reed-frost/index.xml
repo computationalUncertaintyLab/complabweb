@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Reed-Frost on Computational Uncertainty Lab</title>
+    <link>https://compuncertlab.org/tags/reed-frost/</link>
+    <description>Recent content in Reed-Frost on Computational Uncertainty Lab</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/reed-frost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Outbreak science</title>
+      <link>https://compuncertlab.org/books/book1/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/books/book1/</guid>
+      <description>This course aims to introduce students to models that describe the spread of a pathogen through a population, and how models can support public health decisions. Students will be expected to complete mathematical/statistical exercises and write code that simulates infectious processes.</description>
+    </item>
+    <item>
+      <title>Outbreak science</title>
+      <link>https://compuncertlab.org/courses/course1/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/course1/</guid>
+      <description>This course aims to introduce students to models that describe the spread of a pathogen through a population, and how models can support public health decisions. Students will be expected to complete mathematical/statistical exercises and write code that simulates infectious processes.</description>
+    </item>
+  </channel>
+</rss>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vaccine on Computational Uncertainty Lab</title>
-    <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/vaccine/</link>
+    <link>https://compuncertlab.org/tags/vaccine/</link>
     <description>Recent content in Vaccine on Computational Uncertainty Lab</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50252/computationalUncertaintyLab/complabweb/tags/vaccine/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://compuncertlab.org/tags/vaccine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aggregating probabilistic predictions of the safety, efficacy, and timing of a COVID-19 vaccine</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2021-vaccine/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2021-vaccine/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2021-vaccine/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2021-vaccine/</guid>
       <description>To support public health decision making, we solicited trained forecasters and experts in vaccinology and infectious disease to provide monthly probabilistic predictions from July to September of 2020 of the efficacy, safety, timing, and delivery of a COVID-19 vaccine.</description>
     </item>
   </channel>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Time Series Forecasting on Computational Uncertainty Lab</title>
+    <link>https://compuncertlab.org/tags/time-series-forecasting/</link>
+    <description>Recent content in Time Series Forecasting on Computational Uncertainty Lab</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/time-series-forecasting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time series forecasting applied to infectious diseases</title>
+      <link>https://compuncertlab.org/courses/amph2025/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/courses/amph2025/</guid>
+      <description>Tutorial of random walk, AR, MA, for seasonal and non-seasonal models</description>
+    </item>
+  </channel>
+</rss>

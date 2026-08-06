@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Apps on Computational Uncertainty Lab</title>
+    <link>https://compuncertlab.org/apps/</link>
+    <description>Recent content in Apps on Computational Uncertainty Lab</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Influenza Dashboard</title>
+      <link>https://compuncertlab.org/apps/flu_dash/</link>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/apps/flu_dash/</guid>
+      <description>Infleunza dashbaord at state level, showing ILI&#43; and hospitalization rates</description>
+    </item>
+    <item>
+      <title>Compartmental models exercise</title>
+      <link>https://compuncertlab.org/apps/compartmental_models/</link>
+      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/apps/compartmental_models/</guid>
+      <description>SIR,SEIR,SE2IR</description>
+    </item>
+    <item>
+      <title>Watermelon Meow Meow 2</title>
+      <link>https://compuncertlab.org/apps/wmm2/</link>
+      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/apps/wmm2/</guid>
+      <description>Watermelon Meow Meow Outbreak</description>
+    </item>
+  </channel>
+</rss>

@@ -2,45 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Forecasting on Computational Uncertainty Lab</title>
-    <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/forecasting/</link>
+    <link>https://compuncertlab.org/tags/forecasting/</link>
     <description>Recent content in Forecasting on Computational Uncertainty Lab</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50252/computationalUncertaintyLab/complabweb/tags/forecasting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/forecasting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tom mcandrew</title>
+      <link>https://compuncertlab.org/members/mcandrew/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/mcandrew/</guid>
+      <description>Background on mcandrew</description>
+    </item>
+    <item>
+      <title>Chimeric Forecasting: An experiment to leverage human judgment to improve forecasts of infectious disease using simulated surveillance data</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2024-chimeric/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2024-chimeric/</guid>
+      <description>We presented 3000 humans with simulated surveillance data about the number of incident hospitalizations from a current and two past seasons, and asked that they predict the peak time and intensity of the underlying epidemic</description>
+    </item>
+    <item>
+      <title>A Cluster-Aggregate-Pool (CAP) Ensemble Algorithm for Improved Forecast Performance of influenza-like illness</title>
+      <link>https://compuncertlab.org/papers/wei-2023-cap/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/wei-2023-cap/</guid>
+      <description>We propose a novel Cluster-Aggregate-Pool or `CAP&amp;#39; ensemble algorithm that first clusters together individual forecasts, aggregates individual models that belong to the same cluster into a single forecast (called a cluster forecast), and then pools together cluster forecasts via a linear pool.</description>
+    </item>
     <item>
       <title>Early human judgment forecasts of human monkeypox, May 2022</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2022-mpoxhj/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2022-mpoxhj/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2022-mpoxhj/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2022-mpoxhj/</guid>
       <description>These results suggest that a human judgment forecasting platform can quickly generate probabilistic predictions for targets of public health importance</description>
     </item>
     <item>
       <title>Aggregating Human Judgment Probabilistic Predictions of Coronavirus Disease 2019 Transmission, Burden, and Preventive Measures</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/codi-2022-aggcovid19/</link>
+      <link>https://compuncertlab.org/papers/codi-2022-aggcovid19/</link>
       <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/codi-2022-aggcovid19/</guid>
+      <guid>https://compuncertlab.org/papers/codi-2022-aggcovid19/</guid>
       <description>Our work shows that aggregated human judgment forecasts for infectious agents are timely, accurate, and adaptable, and can be used as a tool to aid public health decision making during outbreaks.</description>
     </item>
     <item>
       <title>Adaptively stacking ensembles for influenza forecasting with incomplete data</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-adaptive/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2020-adaptive/</link>
       <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-adaptive/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2020-adaptive/</guid>
       <description>Needing no data at the beginning of an epidemic, an adaptive ensemble can quickly train and forecast an outbreak, providing a practical tool to public health officials looking for a forecast to conform to unique features of a specific season.</description>
     </item>
     <item>
       <title>An expert judgment model to predict early stages of the COVID-19 outbreak in the United States</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-expertjudgmentcovid/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2020-expertjudgmentcovid/</link>
       <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2020-expertjudgmentcovid/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2020-expertjudgmentcovid/</guid>
       <description>This work highlights the importance that an expert linear pool could play in flexibly assessing a wide array of risks early in future emerging outbreaks, especially in settings where available data cannot yet support data-driven computational modeling.</description>
     </item>
     <item>
       <title>Aggregating predictions from experts: a scoping review of statistical methods, experiments, and applications</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-scopingreview/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2019-scopingreview/</link>
       <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2019-scopingreview/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2019-scopingreview/</guid>
       <description>&lt;hr&gt;
 &lt;h5 id=&#34;download&#34;&gt;Download&lt;/h5&gt;
 &lt;ul&gt;
@@ -52,11 +73,11 @@
 &lt;p&gt;Forecasts support decision making in a variety of applications. Statistical models can produce accurate forecasts given abundant training data, but when data is sparse or rapidly changing, statistical models may not be able to make accurate predictions. Expert judgmental forecasts—models that combine expert-generated predictions into a single forecast—can make predictions when training data is limited by relying on human intuition. Researchers have proposed a wide array of algorithms to combine expert predictions into a single forecast, but there is no consensus on an optimal aggregation model. This review surveyed recent literature on aggregating expert-elicited predictions. We gathered common terminology, aggregation methods, and forecasting performance metrics, and offer guidance to strengthen future work that is growing at an accelerated pace.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>tom mcandrew (pi)</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/members/mcandrew/</link>
+      <title>Alumni</title>
+      <link>https://compuncertlab.org/members/past_members/</link>
       <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/members/mcandrew/</guid>
-      <description>Background on mcandrew</description>
+      <guid>https://compuncertlab.org/members/past_members/</guid>
+      <description>Alumni and past lab members</description>
     </item>
   </channel>
 </rss>

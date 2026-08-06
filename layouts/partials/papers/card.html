@@ -1,0 +1,59 @@
+{{- $p := . }}
+
+{{- $summary := $p.Summary | plainify | htmlUnescape }}
+{{- $tags := "" }}
+{{- with $p.Params.tags }}
+  {{- $tags = delimit . " " }}
+{{- end }}
+{{- $authors := "" }}
+{{- with $p.Params.author }}
+  {{- if reflect.IsSlice . }}
+    {{- $authors = delimit . " " }}
+  {{- else }}
+    {{- $authors = printf "%v" . }}
+  {{- end }}
+{{- end }}
+
+{{- $imgURL := "" }}
+{{- with $p.Params.cover.image }}
+  {{- if ne . "" }}
+    {{- $cover := ($p.Resources.ByType "image").GetMatch (printf "*%s*" .) }}
+    {{- if $cover }}
+      {{- $imgURL = $cover.RelPermalink }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+<article
+  class="paper-card"
+  data-name="{{ $p.Title | plainify | lower }}"
+  data-summary="{{ $summary | lower }}"
+  data-tags="{{ $tags | lower }}"
+  data-authors="{{ $authors | lower }}"
+>
+  <a class="paper-card-media" href="{{ $p.RelPermalink }}" aria-label="Open {{ $p.Title | plainify }}">
+    {{- if $imgURL }}
+    <img class="paper-card-cover" src="{{ $imgURL }}" alt="" loading="lazy">
+    {{- else }}
+    <span class="paper-card-cover paper-card-cover--placeholder" aria-hidden="true"></span>
+    {{- end }}
+  </a>
+
+  <div class="paper-card-body">
+    <h2 class="paper-card-title">
+      <a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+    </h2>
+    {{- with $p.Params.author }}
+    <p class="paper-card-authors">
+      {{- if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}
+    </p>
+    {{- end }}
+    {{- with $p.Params.tags }}
+    <ul class="paper-card-tags">
+      {{- range first 4 . }}
+      <li>{{ . }}</li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </div>
+</article>

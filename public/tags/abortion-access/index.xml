@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Abortion Access on Computational Uncertainty Lab</title>
+    <link>https://compuncertlab.org/tags/abortion-access/</link>
+    <description>Recent content in Abortion Access on Computational Uncertainty Lab</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/abortion-access/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Impact of Dobbs v. Jackson on Abortion Access in Colorado: An Analysis of Incidence and Demographic Shifts Post-Roe.</title>
+      <link>https://compuncertlab.org/papers/bryer-2025-dobbs/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/bryer-2025-dobbs/</guid>
+      <description>Objectives: To estimate the impact in the number of incident abortions due to the Dobbs v Jackson decision.</description>
+    </item>
+  </channel>
+</rss>

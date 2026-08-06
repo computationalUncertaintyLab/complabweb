@@ -2,6 +2,7 @@
 title: "Zach Thomas"
 date: 2025-03-25
 lastmod: 2025-03-25
+role: "undergraduate"
 tags: ["math","stats"]
 author: "Zach Thomas"
 description: "Background on Zach Thomas" 

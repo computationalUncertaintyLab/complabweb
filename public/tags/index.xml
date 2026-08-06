@@ -2,255 +2,318 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Computational Uncertainty Lab</title>
-    <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/</link>
+    <link>https://compuncertlab.org/tags/</link>
     <description>Recent content in Tags on Computational Uncertainty Lab</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50252/computationalUncertaintyLab/complabweb/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Forecasting</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/forecasting/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/forecasting/</guid>
+      <title>XXX</title>
+      <link>https://compuncertlab.org/tags/xxx/</link>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/xxx/</guid>
       <description></description>
     </item>
     <item>
-      <title>Human Judgment</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/human-judgment/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/human-judgment/</guid>
+      <title>Time Series Forecasting</title>
+      <link>https://compuncertlab.org/tags/time-series-forecasting/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/time-series-forecasting/</guid>
       <description></description>
     </item>
     <item>
-      <title>Mpox</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/mpox/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/mpox/</guid>
+      <title>Data Science</title>
+      <link>https://compuncertlab.org/tags/data-science/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
-      <title>Covid19</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/covid19/</link>
-      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/covid19/</guid>
+      <title>Infectious Diseases</title>
+      <link>https://compuncertlab.org/tags/infectious-diseases/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/infectious-diseases/</guid>
       <description></description>
     </item>
     <item>
-      <title>Vaccine</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/vaccine/</link>
-      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/vaccine/</guid>
+      <title>Algorithms</title>
+      <link>https://compuncertlab.org/tags/algorithms/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/algorithms/</guid>
       <description></description>
     </item>
     <item>
-      <title>Ensemble</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/ensemble/</link>
-      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/ensemble/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Influenza</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/influenza/</link>
-      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/influenza/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>COVID-19</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/covid-19/</link>
-      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/covid-19/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Expert Judgment</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/expert-judgment/</link>
-      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/expert-judgment/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Time to Event</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/time-to-event/</link>
-      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/time-to-event/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Causality</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/causality/</link>
-      <pubDate>Thu, 18 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/causality/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Social Media</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/social-media/</link>
-      <pubDate>Thu, 18 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/social-media/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Networks</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/networks/</link>
-      <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/networks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Power-Grid</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/power-grid/</link>
-      <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/power-grid/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dataset</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/dataset/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/dataset/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>French</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/french/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/french/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Irregular Verbs</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/irregular-verbs/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/irregular-verbs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Italian</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/italian/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/italian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Philology</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/philology/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/philology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Portuguese</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/portuguese/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/portuguese/</guid>
+      <title>Probability</title>
+      <link>https://compuncertlab.org/tags/probability/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/probability/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/python/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/python/</guid>
+      <link>https://compuncertlab.org/tags/python/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/python/</guid>
       <description></description>
     </item>
     <item>
-      <title>Romance Languages</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/romance-languages/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/romance-languages/</guid>
+      <title>Univariate Statistics</title>
+      <link>https://compuncertlab.org/tags/univariate-statistics/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/univariate-statistics/</guid>
       <description></description>
     </item>
     <item>
-      <title>Simulations</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/simulations/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/simulations/</guid>
+      <title>Decision Making</title>
+      <link>https://compuncertlab.org/tags/decision-making/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/decision-making/</guid>
       <description></description>
     </item>
     <item>
-      <title>Spanish</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/spanish/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/spanish/</guid>
+      <title>Influenza</title>
+      <link>https://compuncertlab.org/tags/influenza/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/influenza/</guid>
       <description></description>
     </item>
     <item>
-      <title>History of Oil</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/history-of-oil/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/history-of-oil/</guid>
+      <title>Forecasting</title>
+      <link>https://compuncertlab.org/tags/forecasting/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/forecasting/</guid>
       <description></description>
     </item>
     <item>
-      <title>Mediterranean World</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/mediterranean-world/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/mediterranean-world/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Oleic Science</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/oleic-science/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/oleic-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>OBGYN</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/obgyn/</link>
-      <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/obgyn/</guid>
+      <title>Human Judgment</title>
+      <link>https://compuncertlab.org/tags/human-judgment/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/human-judgment/</guid>
       <description></description>
     </item>
     <item>
       <title>Math</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/math/</link>
-      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/math/</guid>
+      <link>https://compuncertlab.org/tags/math/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/math/</guid>
       <description></description>
     </item>
     <item>
       <title>Stats</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/stats/</link>
+      <link>https://compuncertlab.org/tags/stats/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/stats/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Abortion Access</title>
+      <link>https://compuncertlab.org/tags/abortion-access/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/abortion-access/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Epidemiology</title>
+      <link>https://compuncertlab.org/tags/epidemiology/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/epidemiology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maternal Health</title>
+      <link>https://compuncertlab.org/tags/maternal-health/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/maternal-health/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Policy</title>
+      <link>https://compuncertlab.org/tags/policy/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/policy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dynamics</title>
+      <link>https://compuncertlab.org/tags/dynamics/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/dynamics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Epidemic Modeling</title>
+      <link>https://compuncertlab.org/tags/epidemic-modeling/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/epidemic-modeling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mechanistic Models</title>
+      <link>https://compuncertlab.org/tags/mechanistic-models/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/mechanistic-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SIR</title>
+      <link>https://compuncertlab.org/tags/sir/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/sir/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mechanisitc Models</title>
+      <link>https://compuncertlab.org/tags/mechanisitc-models/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/mechanisitc-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reed-Frost</title>
+      <link>https://compuncertlab.org/tags/reed-frost/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/reed-frost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mpox</title>
+      <link>https://compuncertlab.org/tags/mpox/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/mpox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Outbreak</title>
+      <link>https://compuncertlab.org/tags/outbreak/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/outbreak/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pedagogy</title>
+      <link>https://compuncertlab.org/tags/pedagogy/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/pedagogy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ensemble</title>
+      <link>https://compuncertlab.org/tags/ensemble/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/ensemble/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modeling</title>
+      <link>https://compuncertlab.org/tags/modeling/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/modeling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regression</title>
+      <link>https://compuncertlab.org/tags/regression/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/regression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistcial Inference</title>
+      <link>https://compuncertlab.org/tags/statistcial-inference/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/statistcial-inference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sets</title>
+      <link>https://compuncertlab.org/tags/sets/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/sets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Covid19</title>
+      <link>https://compuncertlab.org/tags/covid19/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/covid19/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vaccine</title>
+      <link>https://compuncertlab.org/tags/vaccine/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/vaccine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>COVID-19</title>
+      <link>https://compuncertlab.org/tags/covid-19/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/covid-19/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Expert Judgment</title>
+      <link>https://compuncertlab.org/tags/expert-judgment/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/expert-judgment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time to Event</title>
+      <link>https://compuncertlab.org/tags/time-to-event/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/time-to-event/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Causality</title>
+      <link>https://compuncertlab.org/tags/causality/</link>
+      <pubDate>Thu, 18 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/causality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Social Media</title>
+      <link>https://compuncertlab.org/tags/social-media/</link>
+      <pubDate>Thu, 18 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/social-media/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networks</title>
+      <link>https://compuncertlab.org/tags/networks/</link>
+      <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/networks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power-Grid</title>
+      <link>https://compuncertlab.org/tags/power-grid/</link>
+      <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/power-grid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OBGYN</title>
+      <link>https://compuncertlab.org/tags/obgyn/</link>
+      <pubDate>Sat, 25 May 2019 13:40:10 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/obgyn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apprentice Teaching</title>
+      <link>https://compuncertlab.org/tags/apprentice-teaching/</link>
       <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/stats/</guid>
+      <guid>https://compuncertlab.org/tags/apprentice-teaching/</guid>
       <description></description>
     </item>
     <item>
-      <title>Portugese</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/portugese/</link>
-      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/portugese/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Celtic Languages</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/celtic-languages/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/celtic-languages/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Irish</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/irish/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/irish/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Language Modernization</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/language-modernization/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/language-modernization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Profanity</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/profanity/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/profanity/</guid>
+      <title>Lab Manual</title>
+      <link>https://compuncertlab.org/tags/lab-manual/</link>
+      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/tags/lab-manual/</guid>
       <description></description>
     </item>
   </channel>

@@ -106,3 +106,17 @@
     color: var(--secondary);
     box-shadow: 0 1px 0 var(--primary);
 }
+
+/* Detail pages: keep cover visible and well-sized */
+.post-single .entry-cover {
+    margin: 0 0 calc(var(--gap) * 1.25);
+}
+
+.post-single .entry-cover img {
+    max-height: 420px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    border: 1px solid var(--border);
+}
+

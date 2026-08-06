@@ -2,39 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Human Judgment on Computational Uncertainty Lab</title>
-    <link>http://localhost:50252/computationalUncertaintyLab/complabweb/tags/human-judgment/</link>
+    <link>https://compuncertlab.org/tags/human-judgment/</link>
     <description>Recent content in Human Judgment on Computational Uncertainty Lab</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50252/computationalUncertaintyLab/complabweb/tags/human-judgment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://compuncertlab.org/tags/human-judgment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tom mcandrew</title>
+      <link>https://compuncertlab.org/members/mcandrew/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/members/mcandrew/</guid>
+      <description>Background on mcandrew</description>
+    </item>
+    <item>
+      <title>Chimeric Forecasting: An experiment to leverage human judgment to improve forecasts of infectious disease using simulated surveillance data</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2024-chimeric/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2024-chimeric/</guid>
+      <description>We presented 3000 humans with simulated surveillance data about the number of incident hospitalizations from a current and two past seasons, and asked that they predict the peak time and intensity of the underlying epidemic</description>
+    </item>
+    <item>
+      <title>Assessing Human Judgment Forecasts in the Rapid Spread of the Mpox Outbreak: Insights and Challenges for Pandemic Preparedness</title>
+      <link>https://compuncertlab.org/papers/mcandrew-2024-assessing/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://compuncertlab.org/papers/mcandrew-2024-assessing/</guid>
+      <description>We collected -- between May 19, 2022 and July 31, 2022 -- 1275 forecasts from 442 individuals of six questions about the mpox outbreak where ground truth data are now available. Individual human judgment forecasts and an equally weighted ensemble were evaluated, as well as compared to a random walk, autoregressive, and doubling time model.</description>
+    </item>
     <item>
       <title>Early human judgment forecasts of human monkeypox, May 2022</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2022-mpoxhj/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2022-mpoxhj/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2022-mpoxhj/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2022-mpoxhj/</guid>
       <description>These results suggest that a human judgment forecasting platform can quickly generate probabilistic predictions for targets of public health importance</description>
     </item>
     <item>
       <title>Aggregating Human Judgment Probabilistic Predictions of Coronavirus Disease 2019 Transmission, Burden, and Preventive Measures</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/codi-2022-aggcovid19/</link>
+      <link>https://compuncertlab.org/papers/codi-2022-aggcovid19/</link>
       <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/codi-2022-aggcovid19/</guid>
+      <guid>https://compuncertlab.org/papers/codi-2022-aggcovid19/</guid>
       <description>Our work shows that aggregated human judgment forecasts for infectious agents are timely, accurate, and adaptable, and can be used as a tool to aid public health decision making during outbreaks.</description>
     </item>
     <item>
       <title>Aggregating probabilistic predictions of the safety, efficacy, and timing of a COVID-19 vaccine</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2021-vaccine/</link>
+      <link>https://compuncertlab.org/papers/mcandrew-2021-vaccine/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/papers/mcandrew-2021-vaccine/</guid>
+      <guid>https://compuncertlab.org/papers/mcandrew-2021-vaccine/</guid>
       <description>To support public health decision making, we solicited trained forecasters and experts in vaccinology and infectious disease to provide monthly probabilistic predictions from July to September of 2020 of the efficacy, safety, timing, and delivery of a COVID-19 vaccine.</description>
-    </item>
-    <item>
-      <title>tom mcandrew (pi)</title>
-      <link>http://localhost:50252/computationalUncertaintyLab/complabweb/members/mcandrew/</link>
-      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50252/computationalUncertaintyLab/complabweb/members/mcandrew/</guid>
-      <description>Background on mcandrew</description>
     </item>
   </channel>
 </rss>
