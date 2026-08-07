@@ -6,12 +6,14 @@ tagline: "We improve health and well-being through the study and application of 
 
 ## Vision
 
-XXX
+Our vision is to quantify uncertainty to help others make better decisions.
 
 ## Mission
 
-YYY
+Our mission is to improve the health and well-being of others through the use of biomathematics, biostatistics, and computational techniques.
 
-## Investors
+## Supporters
 
-ZZZ
+We are generously supported by the following organizations, institutions, and individuals:
+
+{{< supporters >}}

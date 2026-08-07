@@ -1,0 +1,60 @@
+# Logos live in static/supporters/. If logo is blank or the file is missing,
+# the grid shows a text wordmark instead — drop a PNG/SVG in to replace it.
+items:
+  - id: pa-doh
+    name: Pennsylvania Department of Health
+    short: PA DOH
+    logo: supporters/pa-doh.png
+    url: "https://www.pa.gov/agencies/health.html"
+  - id: nj-doh
+    name: New Jersey Department of Health
+    short: NJ DOH
+    logo: supporters/nj-doh.png
+    url: "https://www.nj.gov/health/"
+  - id: de-dhss
+    name: Delaware Health and Social Services
+    short: DHSS
+    logo: supporters/de-dhss.png
+    url: "https://dhss.delaware.gov/"
+  - id: nsf
+    name: National Science Foundation
+    short: NSF
+    logo: supporters/nsf.png
+    url: "https://www.nsf.gov/"
+  - id: cdc
+    name: Centers for Disease Control and Prevention
+    short: CDC
+    logo: supporters/cdc.png
+    url: "https://www.cdc.gov/"
+  - id: cste
+    name: Council of State and Territorial Epidemiologists
+    short: CSTE
+    logo: supporters/cste.png
+    url: "https://www.cste.org/"
+  - id: midas
+    name: MIDAS — Models of Infectious Disease Agent Study
+    short: MIDAS
+    logo: supporters/midas.png
+    url: "https://midasnetwork.us/"
+  - id: lehigh-coh
+    name: Lehigh University College of Health
+    short: LU COH
+    logo: supporters/lehigh-coh.png
+    url: "https://health.lehigh.edu/"
+  - id: acs
+    name: American Cancer Society
+    short: ACS
+    logo: supporters/acs.png
+    url: "https://www.cancer.org/"
+  - id: jim-wassil
+    name: Jim Wassil
+    short: Jim Wassil
+    title: COO, Vaxcyte
+    logo: supporters/jim-wassil.png
+    photo: true
+    url: "https://www.linkedin.com/in/jimwassil"
+  - id: ccmr
+    name: Center for Catastrophe Modeling and Resilience at Lehigh
+    short: CCMR
+    logo: supporters/ccmr.png
+    url: "https://catastrophemodeling.lehigh.edu/"

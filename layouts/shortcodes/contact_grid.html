@@ -1,0 +1,53 @@
+{{- /* Clean contact grid from page frontmatter contact URLs */ -}}
+{{- $p := .Page.Params -}}
+{{- $items := slice -}}
+
+{{- if and $p.email_address (ne $p.email_address "") (ne $p.email_address "XXX") }}
+  {{- $items = $items | append (dict "label" "Email" "href" (printf "mailto:%s" $p.email_address) "icon" "email" "external" false) }}
+{{- end }}
+{{- if and $p.cv_url (ne $p.cv_url "") (ne $p.cv_url "XXX") }}
+  {{- $items = $items | append (dict "label" "CV" "href" ($p.cv_url | relURL) "icon" "cv" "external" true) }}
+{{- end }}
+{{- if and $p.scholar_url (ne $p.scholar_url "") (ne $p.scholar_url "XXX") }}
+  {{- $items = $items | append (dict "label" "Google Scholar" "href" $p.scholar_url "icon" "googlescholar" "external" true) }}
+{{- end }}
+{{- if and $p.github_url (ne $p.github_url "") (ne $p.github_url "XXX") }}
+  {{- $items = $items | append (dict "label" "GitHub" "href" $p.github_url "icon" "github" "external" true) }}
+{{- end }}
+{{- if and $p.lab_github_url (ne $p.lab_github_url "") (ne $p.lab_github_url "XXX") }}
+  {{- $items = $items | append (dict "label" "Lab GitHub" "href" $p.lab_github_url "icon" "github" "external" true) }}
+{{- end }}
+{{- if and $p.linkedin_url (ne $p.linkedin_url "") (ne $p.linkedin_url "XXX") }}
+  {{- $items = $items | append (dict "label" "LinkedIn" "href" $p.linkedin_url "icon" "linkedin" "external" true) }}
+{{- end }}
+{{- if and $p.zoom_url (ne $p.zoom_url "") (ne $p.zoom_url "XXX") }}
+  {{- $items = $items | append (dict "label" "Zoom" "href" $p.zoom_url "icon" "zoom" "external" true) }}
+{{- end }}
+{{- if and $p.youtube_url (ne $p.youtube_url "") (ne $p.youtube_url "XXX") }}
+  {{- $items = $items | append (dict "label" "YouTube" "href" $p.youtube_url "icon" "youtube" "external" true) }}
+{{- end }}
+{{- if and $p.location_url (ne $p.location_url "") (ne $p.location_url "XXX") }}
+  {{- $items = $items | append (dict "label" "Location" "href" ($p.location_url | relURL) "icon" "location" "external" false) }}
+{{- end }}
+{{- if and $p.office_hours_url (ne $p.office_hours_url "") (ne $p.office_hours_url "XXX") }}
+  {{- $items = $items | append (dict "label" "Office hours" "href" ($p.office_hours_url | relURL) "icon" "office hours" "external" false) }}
+{{- end }}
+
+{{- if $items }}
+<ul class="contact-grid" role="list">
+  {{- range $items }}
+  <li class="contact-grid-item">
+    <a
+      class="contact-grid-link"
+      href="{{ .href }}"
+      {{- if .external }} target="_blank" rel="noopener noreferrer"{{- end }}
+    >
+      <span class="contact-grid-icon" aria-hidden="true">
+        {{- partial "svg.html" (dict "name" .icon) -}}
+      </span>
+      <span class="contact-grid-label">{{ .label }}</span>
+    </a>
+  </li>
+  {{- end }}
+</ul>
+{{- end }}

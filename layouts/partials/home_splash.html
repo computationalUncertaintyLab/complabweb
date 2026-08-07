@@ -34,11 +34,11 @@
       {{- range . }}
       <a class="home-splash-cta" href="{{ trim .url " " | relURL }}">{{ .name }}</a>
       {{- end }}
-      <a class="home-splash-cta home-splash-cta--accent" href="#vision-mission">Vision, Mission, and Investors</a>
+      <a class="home-splash-cta home-splash-cta--accent" href="#vision-mission">Vision, Mission, and Supporters</a>
     </nav>
     {{- end }}
 
-    <a class="home-splash-scroll" href="#vision-mission" aria-label="Scroll to Vision, Mission, and Investors">
+    <a class="home-splash-scroll" href="#vision-mission" aria-label="Scroll to Vision, Mission, and Supporters">
       <span class="home-splash-scroll-icon" aria-hidden="true"></span>
     </a>
   </div>
@@ -46,7 +46,7 @@
 
 <section class="home-vision" id="vision-mission" aria-labelledby="vision-mission-heading">
   <div class="home-vision-inner">
-    <h2 id="vision-mission-heading" class="visually-hidden">Vision, Mission, and Investors</h2>
+    <h2 id="vision-mission-heading" class="visually-hidden">Vision, Mission, and Supporters</h2>
     <div class="post-content home-vision-content">
       {{- with .Content }}
         {{ . }}
@@ -55,7 +55,7 @@
         <p>XXX</p>
         <h2>Mission</h2>
         <p>YYY</p>
-        <h2>Investors</h2>
+        <h2>Supporters</h2>
         <p>ZZZ</p>
       {{- end }}
     </div>

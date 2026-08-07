@@ -10,27 +10,30 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Research Products
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
         - name: Lab members
           url: members/
           weight: 1
+        - name: Research Products
+          url: papers/
+          weight: 2
+        - name: News/Media Coverage
+          url: news/
+          weight: 3
+        - name: Courses
+          url: courses/
+          weight: 4
+        - name: Data
+          url: data/
+          weight: 5
+        - name: Books
+          url: books/
+          weight: 6
         - name: Lab Docs
           url: lab_docs/
-          weight: 6
+          weight: 7
         - name: Apps
           url: apps/
-          weight: 7
+          weight: 8
 
 params:
     description: "Computational scientist,infectious diseases,forecasting"
@@ -48,7 +51,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["books","courses","papers","data","news"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -70,6 +73,8 @@ params:
               url: courses/
             - name: Research Products
               url: papers/
+            - name: News/Media Coverage
+              url: news/
             - name: Data
               url: data/
             - name: Books
@@ -94,6 +99,8 @@ params:
         useClassicList: false   # true = old PaperMod list cards
     papers:
         useClassicList: false   # true = old PaperMod list cards
+    news:
+        useClassicList: false
     label:
       text: "Computational Uncertainty Lab"
       icon: compuncertlab.png

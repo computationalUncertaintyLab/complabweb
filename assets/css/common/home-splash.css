@@ -222,6 +222,100 @@
   line-height: 1.6;
 }
 
+/* Supporters logo grid */
+.supporters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  gap: 0.85rem 1rem;
+  margin: 1.35rem 0 0.25rem;
+  padding: 0;
+  list-style: none;
+}
+
+.supporters-item {
+  margin: 0;
+}
+
+.supporters-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 7.5rem;
+  padding: 0.85rem 0.7rem 0.75rem;
+  text-decoration: none;
+  color: var(--primary);
+  background: color-mix(in srgb, white 78%, transparent);
+  border: 1px solid color-mix(in srgb, var(--border) 90%, transparent);
+  border-radius: 2px;
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+a.supporters-link:hover {
+  border-color: color-mix(in srgb, var(--darkcolor) 45%, var(--border));
+  background: color-mix(in srgb, white 92%, var(--lightcolor));
+  transform: translateY(-1px);
+}
+
+.supporters-logo {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 3.1rem;
+  object-fit: contain;
+}
+
+.supporters-logo--photo {
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.supporters-wordmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.1rem;
+  padding: 0 0.25rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: center;
+  line-height: 1.15;
+  color: var(--darkcolor);
+}
+
+.supporters-name {
+  display: block;
+  font-size: 0.72rem;
+  line-height: 1.3;
+  text-align: center;
+  color: var(--secondary);
+}
+
+.supporters-title {
+  display: block;
+  margin-top: -0.2rem;
+  font-size: 0.66rem;
+  line-height: 1.25;
+  text-align: center;
+  color: color-mix(in srgb, var(--secondary) 88%, var(--primary));
+}
+
+@media (min-width: 900px) {
+  .supporters-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a.supporters-link:hover {
+    transform: none;
+  }
+}
+
 @keyframes home-splash-enter {
   to {
     opacity: 1;

@@ -1,0 +1,35 @@
+{{- /* Renders supporter logos from data/supporters.yml */ -}}
+{{- $items := site.Data.supporters.items -}}
+{{- if $items }}
+<ul class="supporters-grid" role="list">
+  {{- range $items }}
+  {{- $logoPath := .logo -}}
+  {{- $logoFile := "" -}}
+  {{- if $logoPath }}
+    {{- $logoFile = printf "static/%s" $logoPath -}}
+  {{- end }}
+  {{- $hasLogo := and $logoPath (fileExists $logoFile) -}}
+  <li class="supporters-item{{ if not $hasLogo }} supporters-item--text{{ end }}">
+    {{- if .url }}
+    <a class="supporters-link" href="{{ .url }}" target="_blank" rel="noopener noreferrer" title="{{ .name }}">
+    {{- else }}
+    <div class="supporters-link" title="{{ .name }}">
+    {{- end }}
+      {{- if $hasLogo }}
+      <img class="supporters-logo{{ if .photo }} supporters-logo--photo{{ end }}" src="{{ $logoPath | relURL }}" alt="{{ .name }}" loading="lazy" decoding="async">
+      {{- else }}
+      <span class="supporters-wordmark" aria-hidden="true">{{ .short | default .name }}</span>
+      {{- end }}
+      <span class="supporters-name">{{ .name }}</span>
+      {{- with .title }}
+      <span class="supporters-title">{{ . }}</span>
+      {{- end }}
+    {{- if .url }}
+    </a>
+    {{- else }}
+    </div>
+    {{- end }}
+  </li>
+  {{- end }}
+</ul>
+{{- end }}

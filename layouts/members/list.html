@@ -65,6 +65,7 @@
 
 {{- $roleOrder := slice
   (dict "key" "pi" "label" "Principal Investigator")
+  (dict "key" "research_scientist" "label" "Research Scientists")
   (dict "key" "postdoc" "label" "Postdocs")
   (dict "key" "graduate" "label" "Graduate Students")
   (dict "key" "undergraduate" "label" "Undergraduate Students")
@@ -85,6 +86,7 @@
     <div class="members-filters" role="group" aria-label="Filter by role">
       <button type="button" class="members-chip is-active" data-role-filter="all">All</button>
       <button type="button" class="members-chip" data-role-filter="pi">PI</button>
+      <button type="button" class="members-chip" data-role-filter="research_scientist">Research Scientists</button>
       <button type="button" class="members-chip" data-role-filter="postdoc">Postdocs</button>
       <button type="button" class="members-chip" data-role-filter="graduate">Graduate</button>
       <button type="button" class="members-chip" data-role-filter="undergraduate">Undergraduate</button>

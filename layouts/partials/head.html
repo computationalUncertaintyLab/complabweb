@@ -110,6 +110,17 @@
 {{- end }}
 {{- end -}}
 
+{{- /* News / media coverage directory search */}}
+{{- if and (eq .Section "news") .IsSection (not site.Params.news.useClassicList) }}
+{{- $newsJS := resources.Get "js/news-directory.js" | resources.Minify }}
+{{- if not site.Params.assets.disableFingerprinting }}
+{{- $newsJS = $newsJS | fingerprint }}
+<script defer crossorigin="anonymous" src="{{ $newsJS.RelPermalink }}" integrity="{{ $newsJS.Data.Integrity }}"></script>
+{{- else }}
+<script defer crossorigin="anonymous" src="{{ $newsJS.RelPermalink }}"></script>
+{{- end }}
+{{- end -}}
+
 {{- /* Home splash bubble animation */}}
 {{- if .IsHome }}
 {{- $homeSplashJS := resources.Get "js/home-splash.js" | resources.Minify }}

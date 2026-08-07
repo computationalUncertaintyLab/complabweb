@@ -1,0 +1,66 @@
+{{- $p := . }}
+
+{{- $summary := $p.Summary | plainify | htmlUnescape }}
+{{- $outlet := $p.Params.outlet | default "" }}
+{{- $external := $p.Params.external_url | default "" }}
+{{- $href := $p.RelPermalink }}
+{{- if $external }}
+  {{- $href = $external }}
+{{- end }}
+
+{{- $tags := "" }}
+{{- with $p.Params.tags }}
+  {{- $tags = delimit . " " }}
+{{- end }}
+
+{{- $imgURL := "" }}
+{{- with $p.Params.cover.image }}
+  {{- $cover := ($p.Resources.ByType "image").GetMatch (printf "*%s*" .) }}
+  {{- if $cover }}
+    {{- $imgURL = $cover.RelPermalink }}
+  {{- end }}
+{{- end }}
+
+<article
+  class="news-card"
+  data-name="{{ $p.Title | plainify | lower }}"
+  data-summary="{{ $summary | lower }} {{ $outlet | lower }} {{ $p.Params.topic | default "" | lower }}"
+  data-tags="{{ $tags | lower }}"
+>
+  {{- if $external }}
+  <a class="news-card-media" href="{{ $href }}" target="_blank" rel="noopener noreferrer" aria-label="Open {{ $p.Title | plainify }}">
+  {{- else }}
+  <a class="news-card-media" href="{{ $href }}" aria-label="Open {{ $p.Title | plainify }}">
+  {{- end }}
+    {{- if $imgURL }}
+    <img class="news-card-cover" src="{{ $imgURL }}" alt="" loading="lazy">
+    {{- else }}
+    <span class="news-card-cover news-card-cover--placeholder" aria-hidden="true">
+      {{- with $outlet }}<span class="news-card-outlet-mark">{{ . }}</span>{{ end }}
+    </span>
+    {{- end }}
+  </a>
+
+  <div class="news-card-body">
+    {{- with $outlet }}
+    <p class="news-card-outlet">{{ . }}</p>
+    {{- end }}
+    <h2 class="news-card-title">
+      {{- if $external }}
+      <a href="{{ $href }}" target="_blank" rel="noopener noreferrer">{{ $p.Title }}</a>
+      {{- else }}
+      <a href="{{ $href }}">{{ $p.Title }}</a>
+      {{- end }}
+    </h2>
+    {{- with $p.Params.topic }}
+    <p class="news-card-topic">{{ . }}</p>
+    {{- end }}
+    {{- with $p.Params.tags }}
+    <ul class="news-card-tags">
+      {{- range first 4 . }}
+      <li>{{ . }}</li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </div>
+</article>

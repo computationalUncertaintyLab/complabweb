@@ -1,0 +1,59 @@
+{{- define "main" }}
+
+{{- $useClassic := site.Params.news.useClassicList | default false }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{- if .Content }}
+<div class="post-content news-intro">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- if $useClassic }}
+
+{{- $paginator := .Paginate .RegularPages }}
+{{- range $paginator.Pages }}
+<article class="post-entry">
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">{{ .Title }}</h2>
+  </header>
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+
+{{- else }}
+
+{{- $items := .RegularPages.ByDate.Reverse }}
+
+<div class="news-directory" id="news-directory">
+  <div class="news-toolbar" role="search">
+    <label class="news-search-label" for="news-search">
+      <span class="visually-hidden">Search news and media</span>
+      <input
+        type="search"
+        id="news-search"
+        class="news-search"
+        placeholder="Search by title, outlet, or topic…"
+        autocomplete="off"
+      >
+    </label>
+  </div>
+
+  <p class="news-empty" id="news-empty" hidden>No coverage matches your search.</p>
+
+  <div class="news-grid">
+    {{- range $items }}
+    {{- partial "news/card.html" . }}
+    {{- end }}
+  </div>
+</div>
+
+{{- end }}
+
+{{- end }}

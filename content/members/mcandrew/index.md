@@ -36,15 +36,4 @@ McAndrew has led projects associated with the mathematical modeling of respirato
 
 ## Contact
 
-- [Email](mailto:mcandrew@lehigh.edu)
-- [CV](/mcandrew_cv.pdf)
-- [Google Scholar](https://scholar.google.com/citations?user=JFIv-bIAAAAJ&hl=en)
-- [GitHub](https://github.com/tomcm39)
-- [Lab GitHub](https://github.com/computationalUncertaintyLab)
-- [LinkedIn](https://www.linkedin.com/in/thomas-mcandrew-38a38b28/)
-- [Zoom](https://lehigh.zoom.us/my/profmcandrew)
-- [YouTube](https://www.youtube.com/@tomcm100)
-- [Location](/location/)
-- [Office hours](/officehours/)
-
-{{< floating_share >}}
+{{< contact_grid >}}

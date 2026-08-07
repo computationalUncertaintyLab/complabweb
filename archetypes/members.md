@@ -2,7 +2,7 @@
 title: "{{ replace .File.ContentBaseName "_" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
-role: "undergraduate" # pi | postdoc | graduate | undergraduate
+role: "undergraduate" # pi | research_scientist | postdoc | graduate | undergraduate
 tags: ["math", "stats"]
 author: "{{ replace .File.ContentBaseName "_" " " | title }}"
 description: "Background on {{ replace .File.ContentBaseName "_" " " | title }}"
