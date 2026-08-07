@@ -406,4 +406,225 @@
   .member-card:hover {
     transform: none;
   }
+
+  .member-profile-hero,
+  .member-profile-photo,
+  .member-profile-bio,
+  .member-profile-contact {
+    animation: none;
+  }
+}
+
+/* —— Individual member profile pages —— */
+.member-profile {
+  max-width: 46rem;
+  margin: 0 auto calc(var(--gap) * 2);
+}
+
+.member-profile-back {
+  margin: 0 0 1.1rem;
+  font-size: 0.9rem;
+}
+
+.member-profile-back a {
+  color: var(--secondary);
+  text-decoration: none;
+  box-shadow: none;
+  transition: color 0.2s ease;
+}
+
+.member-profile-back a:hover {
+  color: var(--darkcolor);
+}
+
+.member-profile-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.35rem;
+  margin-bottom: 2rem;
+  padding: 1.85rem 1.35rem 1.65rem;
+  text-align: center;
+  background:
+    radial-gradient(
+      ellipse 85% 75% at 50% -10%,
+      color-mix(in srgb, var(--lightcolor) 48%, transparent) 0%,
+      transparent 68%
+    ),
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, white 82%, transparent) 0%,
+      color-mix(in srgb, var(--entry) 70%, transparent) 100%
+    );
+  border: 1px solid color-mix(in srgb, var(--border) 88%, transparent);
+  border-radius: var(--radius);
+  animation: member-profile-in 0.45s ease both;
+}
+
+@media (min-width: 720px) {
+  .member-profile-hero {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 2rem;
+    padding: 2rem 1.85rem;
+  }
+}
+
+.member-profile-photo-wrap {
+  flex-shrink: 0;
+}
+
+.member-profile-photo {
+  display: block;
+  width: 11rem;
+  height: 11rem;
+  object-fit: cover;
+  border-radius: 50%;
+  background: var(--code-bg);
+  border: 3px solid color-mix(in srgb, white 84%, var(--lightcolor));
+  box-shadow:
+    0 12px 32px color-mix(in srgb, var(--darkcolor) 14%, transparent),
+    0 0 0 1px color-mix(in srgb, var(--border) 70%, transparent);
+  animation: member-profile-photo-in 0.55s ease 0.05s both;
+}
+
+.member-profile-photo--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--secondary);
+  text-transform: uppercase;
+}
+
+.member-profile-identity {
+  min-width: 0;
+  flex: 1;
+}
+
+.member-profile-name {
+  margin: 0 0 0.4rem;
+  font-size: clamp(1.7rem, 3.6vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+  color: var(--primary);
+  text-wrap: balance;
+}
+
+.member-profile-role {
+  margin: 0 0 0.7rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--darkcolor);
+}
+
+.member-profile-summary {
+  margin: 0 0 0.95rem;
+  max-width: 34rem;
+  font-size: 1.03rem;
+  line-height: 1.55;
+  color: var(--secondary);
+}
+
+.member-profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 720px) {
+  .member-profile-tags {
+    justify-content: flex-start;
+  }
+}
+
+.member-profile-tags a {
+  display: inline-block;
+  padding: 0.22rem 0.6rem;
+  font-size: 0.74rem;
+  color: var(--secondary);
+  text-decoration: none;
+  background: color-mix(in srgb, white 88%, transparent);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: none;
+  transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.member-profile-tags a:hover {
+  color: white;
+  background: var(--darkcolor);
+  border-color: var(--darkcolor);
+}
+
+.member-profile-bio,
+.member-profile-contact {
+  margin-bottom: 1.85rem;
+  animation: member-profile-in 0.5s ease 0.08s both;
+}
+
+.member-profile-bio .floating-share,
+.member-profile-bio .share-grid {
+  display: none !important;
+}
+
+/* Hide a Contact heading that still lives in markdown once the template renders contact */
+.member-profile-bio h2[id="contact"],
+.member-profile-bio h2:has(+ .contact-grid) {
+  display: none;
+}
+
+.member-profile-bio .contact-grid {
+  display: none;
+}
+
+.member-profile-section-title {
+  margin: 0 0 0.9rem;
+  padding-bottom: 0.45rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--darkcolor);
+  border-bottom: 1px solid color-mix(in srgb, var(--border) 90%, transparent);
+}
+
+.member-profile-bio.post-content > p:first-of-type {
+  margin-top: 0;
+}
+
+.member-profile-contact .contact-grid {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+@keyframes member-profile-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes member-profile-photo-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }

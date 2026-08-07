@@ -1,0 +1,100 @@
+{{- define "main" }}
+
+{{- /* Alumni / special pages keep the classic article layout */ -}}
+{{- if or (eq .Params.role "alumni") .Params.exclude_from_directory }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+  {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
+  {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+</article>
+
+{{- else }}
+
+{{- $role := .Params.role | default "" }}
+{{- $roleLabel := dict
+  "pi" "Principal Investigator"
+  "research_scientist" "Research Scientist"
+  "postdoc" "Postdoc"
+  "graduate" "Graduate Student"
+  "undergraduate" "Undergraduate Student"
+}}
+{{- $displayRole := index $roleLabel $role | default ($role | humanize | title) }}
+
+{{- $imgURL := "" }}
+{{- with .Params.cover.image }}
+  {{- $cover := ($.Resources.ByType "image").GetMatch (printf "*%s*" .) }}
+  {{- if $cover }}
+    {{- $imgURL = $cover.RelPermalink }}
+  {{- else if hasPrefix . "http" }}
+    {{- $imgURL = . }}
+  {{- else }}
+    {{- $imgURL = . | relURL }}
+  {{- end }}
+{{- end }}
+
+{{- $summary := .Summary | plainify | htmlUnescape }}
+{{- $contactHTML := strings.TrimSpace (partial "members/contact.html" .) }}
+
+<article class="member-profile">
+  <p class="member-profile-back">
+    <a href="{{ "/members/" | relURL }}">← Lab members</a>
+  </p>
+
+  <header class="member-profile-hero">
+    <div class="member-profile-photo-wrap">
+      {{- if $imgURL }}
+      <img class="member-profile-photo" src="{{ $imgURL }}" alt="{{ .Title | plainify }}" width="220" height="220">
+      {{- else }}
+      <span class="member-profile-photo member-profile-photo--placeholder" aria-hidden="true">{{ substr (.Title | plainify) 0 1 }}</span>
+      {{- end }}
+    </div>
+
+    <div class="member-profile-identity">
+      <h1 class="member-profile-name">{{ .Title }}</h1>
+      {{- if $displayRole }}
+      <p class="member-profile-role">{{ $displayRole }}</p>
+      {{- end }}
+      {{- if $summary }}
+      <p class="member-profile-summary">{{ $summary }}</p>
+      {{- end }}
+      {{- with .GetTerms "tags" }}
+      <ul class="member-profile-tags">
+        {{- range . }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{- end }}
+      </ul>
+      {{- end }}
+    </div>
+  </header>
+
+  {{- if .Content }}
+  <section class="member-profile-bio post-content" aria-labelledby="member-about-heading">
+    <h2 id="member-about-heading" class="member-profile-section-title">About</h2>
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </section>
+  {{- end }}
+
+  {{- if $contactHTML }}
+  <section class="member-profile-contact" aria-labelledby="member-contact-heading">
+    <h2 id="member-contact-heading" class="member-profile-section-title">Contact</h2>
+    {{ $contactHTML | safeHTML }}
+  </section>
+  {{- end }}
+</article>
+
+{{- end }}
+
+{{- end }}

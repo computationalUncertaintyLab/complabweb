@@ -33,7 +33,3 @@ lab_github_url: "https://github.com/computationalUncertaintyLab"
 ---
 
 McAndrew has led projects associated with the mathematical modeling of respiratory illnesses that focus on augmenting surveillance data with human judgment predictions. He has received support from NSF, CSTE, CDC, and MIDAS. McAndrew has published innovative works that combine surveillance data with human judgment predictions to produce forecasts of the trajectory of infectious agents, and has a history of developing novel epidemic models. He also focuses on building innovative ensemble algorithms to combine forecasts of seasonal influenza. McAndrew works closely with public health officials and practitioners to improve public health decision making via mathematical models of disease.
-
-## Contact
-
-{{< contact_grid >}}
