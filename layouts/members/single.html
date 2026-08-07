@@ -44,7 +44,7 @@
 {{- end }}
 
 {{- $summary := .Summary | plainify | htmlUnescape }}
-{{- $contactHTML := strings.TrimSpace (partial "members/contact.html" .) }}
+{{- $contactHTML := trim (partial "members/contact.html" .) " \n\r\t" }}
 
 <article class="member-profile">
   <p class="member-profile-back">
