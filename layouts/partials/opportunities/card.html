@@ -1,0 +1,68 @@
+{{- $summary := .Summary | plainify | htmlUnescape -}}
+{{- $status := .Params.status | default "open" -}}
+{{- $type := .Params.opportunity_type | default "research" -}}
+{{- $typeLabel := dict
+  "research" "Research opportunity"
+  "hiring" "Hiring"
+  "fellowship" "Fellowship"
+  "internship" "Internship"
+ -}}
+{{- $displayType := index $typeLabel $type | default ($type | humanize | title) -}}
+{{- $expandId := printf "opportunity-%s" (.File.ContentBaseName | default (.Title | urlize)) -}}
+{{- $paid := .Params.paid -}}
+
+<article class="opportunity-card" data-status="{{ $status }}" data-type="{{ $type }}">
+  <button
+    type="button"
+    class="opportunity-card-toggle"
+    aria-expanded="false"
+    aria-controls="{{ $expandId }}"
+    id="{{ $expandId }}-toggle"
+  >
+    <span class="opportunity-card-toggle-main">
+      <span class="opportunity-card-meta">
+        <span class="opportunity-card-type">{{ $displayType }}</span>
+        {{- if eq $status "open" }}
+        <span class="opportunity-card-status opportunity-card-status--open">Open</span>
+        {{- else if eq $status "filled" }}
+        <span class="opportunity-card-status">Filled</span>
+        {{- else }}
+        <span class="opportunity-card-status">{{ $status | humanize | title }}</span>
+        {{- end }}
+        {{- if eq $paid false }}
+        <span class="opportunity-card-pay">Unpaid</span>
+        {{- else if eq $paid true }}
+        <span class="opportunity-card-pay">Paid</span>
+        {{- end }}
+      </span>
+      <span class="opportunity-card-title">{{ .Title }}</span>
+      {{- if $summary }}
+      <span class="opportunity-card-summary">{{ $summary }}</span>
+      {{- end }}
+      {{- if or .Params.starts .Params.ends .Params.eligibility }}
+      <span class="opportunity-card-facts">
+        {{- if and .Params.starts .Params.ends }}
+        <span>{{ .Params.starts }} – {{ .Params.ends }}</span>
+        {{- else if .Params.starts }}
+        <span>Starts {{ .Params.starts }}</span>
+        {{- end }}
+        {{- with .Params.eligibility }}
+        <span>{{ . }}</span>
+        {{- end }}
+      </span>
+      {{- end }}
+    </span>
+    <span class="opportunity-card-chevron" aria-hidden="true"></span>
+  </button>
+
+  <div
+    class="opportunity-card-panel post-content"
+    id="{{ $expandId }}"
+    role="region"
+    aria-labelledby="{{ $expandId }}-toggle"
+    aria-hidden="true"
+    hidden
+  >
+    {{ .Content }}
+  </div>
+</article>

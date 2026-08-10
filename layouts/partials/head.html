@@ -121,6 +121,17 @@
 {{- end }}
 {{- end -}}
 
+{{- /* Hiring / research opportunities expand cards */}}
+{{- if and (eq .Section "opportunities") .IsSection }}
+{{- $opportunitiesJS := resources.Get "js/opportunities-directory.js" | resources.Minify }}
+{{- if not site.Params.assets.disableFingerprinting }}
+{{- $opportunitiesJS = $opportunitiesJS | fingerprint }}
+<script defer crossorigin="anonymous" src="{{ $opportunitiesJS.RelPermalink }}" integrity="{{ $opportunitiesJS.Data.Integrity }}"></script>
+{{- else }}
+<script defer crossorigin="anonymous" src="{{ $opportunitiesJS.RelPermalink }}"></script>
+{{- end }}
+{{- end -}}
+
 {{- /* Home splash bubble animation */}}
 {{- if .IsHome }}
 {{- $homeSplashJS := resources.Get "js/home-splash.js" | resources.Minify }}

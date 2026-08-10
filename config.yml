@@ -19,21 +19,24 @@ menu:
         - name: News/Media Coverage
           url: news/
           weight: 3
+        - name: Hiring & Research Opportunities
+          url: opportunities/
+          weight: 4
         - name: Courses
           url: courses/
-          weight: 4
+          weight: 5
         - name: Data
           url: data/
-          weight: 5
+          weight: 6
         - name: Books
           url: books/
-          weight: 6
+          weight: 7
         - name: Lab Docs
           url: lab_docs/
-          weight: 7
+          weight: 8
         - name: Apps
           url: apps/
-          weight: 8
+          weight: 9
 
 params:
     description: "Computational scientist,infectious diseases,forecasting"
@@ -51,7 +54,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data","news"]
+    MainSections: ["books","courses","papers","data","news","opportunities"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -75,6 +78,8 @@ params:
               url: papers/
             - name: News/Media Coverage
               url: news/
+            - name: Hiring & Research Opportunities
+              url: opportunities/
             - name: Data
               url: data/
             - name: Books

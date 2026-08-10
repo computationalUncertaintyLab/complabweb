@@ -1,0 +1,189 @@
+/* Hiring and research opportunities — expandable listing cards */
+
+.opportunities-intro {
+  margin-bottom: calc(var(--gap) * 1.25);
+}
+
+.opportunities-directory {
+  margin-bottom: calc(var(--gap) * 2);
+}
+
+.opportunities-empty {
+  color: var(--secondary);
+}
+
+.opportunities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.opportunity-card {
+  background: color-mix(in srgb, white 78%, transparent);
+  border: 1px solid color-mix(in srgb, var(--border) 90%, transparent);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.opportunity-card.is-open {
+  border-color: color-mix(in srgb, var(--darkcolor) 35%, var(--border));
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--darkcolor) 8%, transparent);
+}
+
+.opportunity-card-toggle {
+  appearance: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  margin: 0;
+  padding: 1.1rem 1.15rem;
+  font: inherit;
+  text-align: left;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.opportunity-card-toggle:hover {
+  background: color-mix(in srgb, white 55%, var(--lightcolor));
+}
+
+.opportunity-card-toggle:focus-visible {
+  outline: 2px solid var(--darkcolor);
+  outline-offset: -2px;
+}
+
+.opportunity-card-toggle-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.opportunity-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.opportunity-card-type,
+.opportunity-card-status,
+.opportunity-card-pay {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--secondary);
+  background: color-mix(in srgb, white 88%, transparent);
+}
+
+.opportunity-card-status--open {
+  color: var(--darkcolor);
+  border-color: color-mix(in srgb, var(--darkcolor) 35%, var(--border));
+  background: color-mix(in srgb, var(--lightcolor) 35%, white);
+}
+
+.opportunity-card-title {
+  font-size: clamp(1.15rem, 2.4vw, 1.35rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  color: var(--primary);
+}
+
+.opportunity-card-summary {
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: var(--secondary);
+}
+
+.opportunity-card-facts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-top: 0.15rem;
+  font-size: 0.84rem;
+  line-height: 1.4;
+  color: color-mix(in srgb, var(--secondary) 92%, var(--primary));
+}
+
+@media (min-width: 720px) {
+  .opportunity-card-facts {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+  }
+}
+
+.opportunity-card-chevron {
+  flex-shrink: 0;
+  width: 0.65rem;
+  height: 0.65rem;
+  margin-top: 0.45rem;
+  border-right: 2px solid var(--secondary);
+  border-bottom: 2px solid var(--secondary);
+  transform: rotate(45deg);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.opportunity-card-toggle[aria-expanded="true"] .opportunity-card-chevron {
+  margin-top: 0.7rem;
+  transform: rotate(225deg);
+  border-color: var(--darkcolor);
+}
+
+.opportunity-card-panel {
+  margin: 0;
+  padding: 0 1.15rem 1.25rem;
+  border-top: 1px solid color-mix(in srgb, var(--border) 90%, transparent);
+}
+
+.opportunity-card-panel[hidden] {
+  display: none;
+}
+
+.opportunity-card-panel > *:first-child {
+  margin-top: 1rem;
+}
+
+.opportunity-card-panel h2 {
+  margin-top: 1.35rem;
+  margin-bottom: 0.55rem;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  color: var(--darkcolor);
+}
+
+.opportunity-card-panel h2:first-child {
+  margin-top: 1rem;
+}
+
+.opportunities-back {
+  margin-top: 1.5rem;
+}
+
+.opportunities-back a {
+  color: var(--secondary);
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.opportunities-back a:hover {
+  color: var(--darkcolor);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .opportunity-card,
+  .opportunity-card-chevron {
+    transition: none;
+  }
+}

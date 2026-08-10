@@ -1,0 +1,30 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{- if .Content }}
+<div class="post-content opportunities-intro">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- $items := .RegularPages.ByDate.Reverse }}
+
+<div class="opportunities-directory" id="opportunities-directory">
+  {{- if not $items }}
+  <p class="opportunities-empty">No openings are listed right now. Check back soon.</p>
+  {{- else }}
+  <div class="opportunities-list">
+    {{- range $items }}
+    {{- partial "opportunities/card.html" . }}
+    {{- end }}
+  </div>
+  {{- end }}
+</div>
+
+{{- end }}
