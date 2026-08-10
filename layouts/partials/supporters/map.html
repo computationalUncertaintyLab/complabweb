@@ -1,0 +1,71 @@
+{{- /* Quiet contiguous-U.S. SVG with supporter HQ circles.
+     Projection must match layouts/partials/supporters/us-outline-path.html:
+     lon [-125,-66], lat [24,50], viewBox 0 0 1000 600, pad 24. */ -}}
+{{- $items := site.Data.supporters.items -}}
+{{- $lonMin := -125.0 -}}
+{{- $lonMax := -66.0 -}}
+{{- $latMin := 24.0 -}}
+{{- $latMax := 50.0 -}}
+{{- $w := 1000.0 -}}
+{{- $h := 600.0 -}}
+{{- $pad := 24.0 -}}
+{{- $innerW := sub $w (mul $pad 2) -}}
+{{- $innerH := sub $h (mul $pad 2) -}}
+
+{{- $located := slice -}}
+{{- range $items -}}
+  {{- if and (isset . "lat") (isset . "lon") -}}
+    {{- $located = $located | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $located -}}
+<figure class="supporters-map">
+  <svg
+    class="supporters-map-svg"
+    viewBox="0 0 1000 600"
+    role="img"
+    aria-labelledby="supporters-map-title supporters-map-desc"
+  >
+    <title id="supporters-map-title">Supporters across the United States</title>
+    <desc id="supporters-map-desc">Map of the contiguous United States with markers for lab supporters.</desc>
+
+    <path
+      class="supporters-map-land"
+      fill-rule="evenodd"
+      d="{{ partial "supporters/us-outline-path.html" . }}"
+    />
+
+    {{- range $located -}}
+      {{- $lon := float .lon -}}
+      {{- $lat := float .lat -}}
+      {{- $cx := add $pad (mul (div (sub $lon $lonMin) (sub $lonMax $lonMin)) $innerW) -}}
+      {{- $cy := add $pad (mul (div (sub $latMax $lat) (sub $latMax $latMin)) $innerH) -}}
+      {{- $name := .name -}}
+      {{- $label := $name -}}
+      {{- with .place -}}{{- $label = printf "%s — %s" $name . -}}{{- end -}}
+
+      {{- if .url -}}
+      <a class="supporters-map-marker" href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ $label }}">
+        <circle class="supporters-map-dot" cx="{{ printf "%.1f" $cx }}" cy="{{ printf "%.1f" $cy }}" r="7" />
+        <title>{{ $label }}</title>
+      </a>
+      {{- else -}}
+      <g class="supporters-map-marker">
+        <circle class="supporters-map-dot" cx="{{ printf "%.1f" $cx }}" cy="{{ printf "%.1f" $cy }}" r="7">
+          <title>{{ $label }}</title>
+        </circle>
+      </g>
+      {{- end -}}
+    {{- end -}}
+  </svg>
+
+  <ul class="supporters-map-sr visually-hidden">
+    {{- range $located -}}
+    <li>
+      {{- .name -}}{{- with .place }} ({{ . }}){{ end -}}
+    </li>
+    {{- end -}}
+  </ul>
+</figure>
+{{- end -}}

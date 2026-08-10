@@ -232,6 +232,51 @@
   list-style: none;
 }
 
+/* Quiet contiguous-U.S. supporters map */
+.supporters-map {
+  margin: 1.15rem 0 0.35rem;
+  padding: 0;
+  max-width: 42rem;
+}
+
+.supporters-map-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.supporters-map-land {
+  fill: color-mix(in srgb, var(--entry) 55%, white);
+  stroke: color-mix(in srgb, var(--border) 85%, var(--secondary));
+  stroke-width: 1.1;
+  stroke-linejoin: round;
+}
+
+.supporters-map-marker {
+  outline: none;
+}
+
+.supporters-map-dot {
+  fill: var(--darkcolor);
+  stroke: color-mix(in srgb, white 88%, transparent);
+  stroke-width: 1.75;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 0.2s ease, fill 0.2s ease;
+}
+
+a.supporters-map-marker:hover .supporters-map-dot,
+a.supporters-map-marker:focus-visible .supporters-map-dot {
+  fill: color-mix(in srgb, var(--darkcolor) 82%, var(--lightcolor));
+  transform: scale(1.28);
+}
+
+a.supporters-map-marker:focus-visible .supporters-map-dot {
+  stroke: var(--darkcolor);
+  stroke-width: 2.25;
+}
+
 .supporters-item {
   margin: 0;
 }
@@ -312,6 +357,15 @@ a.supporters-link:hover {
 
 @media (prefers-reduced-motion: reduce) {
   a.supporters-link:hover {
+    transform: none;
+  }
+
+  .supporters-map-dot {
+    transition: none;
+  }
+
+  a.supporters-map-marker:hover .supporters-map-dot,
+  a.supporters-map-marker:focus-visible .supporters-map-dot {
     transform: none;
   }
 }

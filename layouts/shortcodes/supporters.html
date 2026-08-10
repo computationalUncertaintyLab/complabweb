@@ -1,4 +1,5 @@
-{{- /* Renders supporter logos from data/supporters.yml */ -}}
+{{- /* Renders supporter map (if coords) + logo grid from data/supporters.yml */ -}}
+{{- partial "supporters/map.html" . -}}
 {{- $items := site.Data.supporters.items -}}
 {{- if $items }}
 <ul class="supporters-grid" role="list">
