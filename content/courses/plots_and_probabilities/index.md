@@ -10,6 +10,9 @@ cover:
     image: "cover.jpg"
     alt: "Anthropomorphized fossa protagonist surrounded by narrative, grave, and data-visualization plots with probability motifs"
     relative: false
+editPost:
+    URL: "https://computationaluncertaintylab.github.io/Plots_and_Prob/"
+    Text: "Notes/text"
 showToc: true
 disableAnchoredHeadings: false
 ---
@@ -47,7 +50,7 @@ We see plots everywhere—not just in stories, but also in data such as flu fore
   <tr>
     <td>XXX —XXX</td>
     <td>Week 1</td>
-    <td>XXX</td>
+    <td> [Statistics, Scientific Messiness, and the subtlety of Populations]() </td>
     <td>XXX</td>
   </tr>
   <tr>
