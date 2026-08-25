@@ -32,7 +32,7 @@ Students should note that the "book" may be updated periodically throughout the 
 
 ## Coordinates and Contact
 
-- **Instructor:** Tom McAndrew  
+- **Instructor:** tom mcandrew (prof m)
 - **Email:** [mcandrew@lehigh.edu](mailto:mcandrew@lehigh.edu)  
 - **Office coordinates:** Whitaker 318A
 - **Office hours:** To be voted on by students | By appointment  
@@ -61,12 +61,13 @@ Students will complete mathematical/statistical exercises and write code that si
 | **Reed-Frost Model**                                                 |               |
 | Dynamics assumed at start of outbreak                                | Week 1        |
 | Reproduction number and Growth Rate                                  | Week 2        |
+| Natural history of infectious diseases                               | Week 3        |
+| EXAM                                                                 |               |
 | **Compartmental models**                                             |               |
-| The SIR and Freq vs Density transmission                             | Week 3        |
-| Condition for an outbreak and Herd Immunity Threshold                | Week 4        |
-| Lasting infections and Steady-state analysis                         | Week 5        |
-| Latent and Endemic Diseases                                          | Week 6        |
-| Public health surveillance and policy                                | Week 7        |
+| The SIR and Freq vs Density transmission                             | Week 4        |
+| Condition for an outbreak and Herd Immunity Threshold                | Week 5        |
+| Lasting infections and Steady-state analysis                         | Week 6        |
+| Latent  Diseases                                                     | Week 7        |
 | **Midterm**                                                          | Week 8        |
 | **Computational modeling**                                           |               |
 | Simulating stochastic epidemic models (Reed-Frost)                   | Week 9        |
@@ -74,6 +75,7 @@ Students will complete mathematical/statistical exercises and write code that si
 | Fitting compartmental models via loglikelihood                       | Week 11       |
 | Fitting a compartmental model to real influenza data                 | Week 12       |
 | Disease propagation with heterogeneous risk of hosts (WMM)           | Weeks 13–14   |
+| FINAL                                                                | Week 14       |
 
 ---
 
@@ -124,10 +126,11 @@ Students will use DataCamp for Python programming training.
 
 | Item         | Weight  |
 |--------------|---------|
-| Quizzes      | 25%     |
-| Homework     | 50%     |
-| Midterm      | 12.5%   |
-| Final        | 12.5%   |
+| Homework     | 20.0%   |
+| Exam 1       | 20.0%   |
+| Midterm      | 20.0%   |
+| Exam 2       | 20.0%   | 
+| Final        | 20.0%   |
 
 ### Homework  
 Homework is due in person, one week after assignment. Late homework grades are reduced as follows:  
