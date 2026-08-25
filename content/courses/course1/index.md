@@ -139,8 +139,10 @@ f(\text{grade}, \text{days late}) = \text{grade} \times e^{-0.35 \cdot \text{day
 $  
 No submissions via course site. Late assignments beyond a week receive zero.  
 
-### Exams  
-Midterms and finals are in-person oral exams. Quizzes are due by midnight on class days and test class engagement.  
+### Exams
+Exam 1 and Exam 2 are in-class, in-person evalautions of student comprehension.
+The Midterm is an oral exam lasting approximately 15 minutes. 
+The final is expected to take place during finals week and is in person. It will be a written exam.
 
 ### Datacamp  
 Datacamp assignments will accompany homeworks.  
