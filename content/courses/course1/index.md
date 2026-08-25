@@ -62,27 +62,27 @@ Students will complete mathematical/statistical exercises and write code that si
 | Dynamics assumed at start of outbreak                                | Week 1        |
 | Reproduction number and Growth Rate                                  | Week 2        |
 | Natural history of infectious diseases                               | Week 3        |
-| EXAM                                                                 |               |
+| *EXAM*                                                               |               |
 | **Compartmental models**                                             |               |
 | The SIR and Freq vs Density transmission                             | Week 4        |
 | Condition for an outbreak and Herd Immunity Threshold                | Week 5        |
 | Lasting infections and Steady-state analysis                         | Week 6        |
 | Latent  Diseases                                                     | Week 7        |
-| **Midterm**                                                          | Week 8        |
+| *Midterm*                                                            | Week 8        |
 | **Computational modeling**                                           |               |
 | Simulating stochastic epidemic models (Reed-Frost)                   | Week 9        |
 | Simulating compartmental models (including the use of LLMs)          | Week 10       |
 | Fitting compartmental models via loglikelihood                       | Week 11       |
+| *EXAM*                                                               |               |
 | Fitting a compartmental model to real influenza data                 | Week 12       |
 | Disease propagation with heterogeneous risk of hosts (WMM)           | Weeks 13–14   |
-| FINAL                                                                | Week 14       |
+| *FINAL*                                                              | Week 14       |
 
 ---
 
 ## Additional Graduate Student Requirements
 
-Graduate students must pose and answer their own question for each homework assignment.  
-These questions may be used in future iterations of the course.  
+In addition to the main homework assignment, graduate students have additional "Graduate" homework assignemts that must be completed. 
 Graduate students are not eligible for extra credit.
 
 ---
